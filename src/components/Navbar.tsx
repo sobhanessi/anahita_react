@@ -1,6 +1,4 @@
 import * as React from "react";
-import AccountBoxIcon from "@mui/icons-material/AccountBox";
-import BorderColorIcon from "@mui/icons-material/BorderColor";
 import Box from "@mui/material/Box";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
@@ -8,23 +6,20 @@ import { Container } from "@mui/material";
 import CssBaseline from "@mui/material/CssBaseline";
 import Divider from "@mui/material/Divider";
 import Drawer from "@mui/material/Drawer";
+import HomeIcon from "@mui/icons-material/Home";
 import IconButton from "@mui/material/IconButton";
+import MenuBookIcon from "@mui/icons-material/MenuBook";
+import MenuIcon from "@mui/icons-material/Menu";
 import MuiAppBar, { AppBarProps as MuiAppBarProps } from "@mui/material/AppBar";
 import {
-  MAIN_COLOR,
   NAVBAR_APPBAR_TYPOGRAPHY,
   NAVBAR_CONTAINER_DISPLAY,
   NAVBAR_ICON_BUTTON_DISPLAY,
-  QUATERNARY_COLOR,
-  SECONDARY_COLOR,
 } from "../theme/theme";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
-// import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
-import MenuIcon from "@mui/icons-material/Menu";
-import NewsPaperIcon from "@mui/icons-material/Newspaper";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import PhoneIcon from "@mui/icons-material/Phone";
@@ -33,9 +28,8 @@ import { styled, useTheme } from "@mui/material/styles";
 const drawerWidth = 240;
 
 const titles = [
-  { header: "NEWS", href: "/news", icon: <NewsPaperIcon /> },
-  { header: "PORTFOLIO/ABOUT", href: "/", icon: <AccountBoxIcon /> },
-  { header: "WRITINGS", href: "/writings", icon: <BorderColorIcon /> },
+  { header: "HOME", href: "/", icon: <HomeIcon /> },
+  { header: "MENU", href: "/menu", icon: <MenuBookIcon /> },
   { header: "CONTACT", href: "/contact", icon: <PhoneIcon /> },
 ];
 
@@ -103,7 +97,7 @@ export default function Navbar() {
   return (
     <Box sx={{ display: "flex" }}>
       <CssBaseline />
-      <AppBar position="fixed" open={open} sx={{ backgroundColor: MAIN_COLOR }}>
+      <AppBar position="fixed" open={open} sx={{ bgcolor: "white" }}>
         <Toolbar>
           <IconButton
             color="inherit"
@@ -113,6 +107,7 @@ export default function Navbar() {
             sx={{
               mr: 2,
               display: NAVBAR_ICON_BUTTON_DISPLAY,
+              color: "black",
             }}
           >
             <MenuIcon
@@ -134,14 +129,14 @@ export default function Navbar() {
                 noWrap
                 component="a"
                 href={title.href}
-                sx={{ ...NAVBAR_APPBAR_TYPOGRAPHY, color: SECONDARY_COLOR }}
+                sx={{ ...NAVBAR_APPBAR_TYPOGRAPHY, color: "black" }}
               >
                 <span
                   style={{
                     marginRight: "10px",
                     display: "flex",
                     alignItems: "center",
-                    color: QUATERNARY_COLOR,
+                    color: "black",
                   }}
                 >
                   {title.icon}
