@@ -4,6 +4,7 @@ import Homepage from "./pages/Homepage";
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import Menu from "./pages/Menu";
+import Navbar from "./components/Navbar";
 
 i18n.use(Backend).use(initReactI18next).init({
   lng: "en",
@@ -12,6 +13,7 @@ i18n.use(Backend).use(initReactI18next).init({
 function App() {
   return (
     <Router>
+      <Navbar />
       <Routes>
         <Route path="/menu" element={<Menu />} />
         <Route path="/" element={<Homepage />} />
