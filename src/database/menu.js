@@ -1,0 +1,428 @@
+const menu = [
+  {
+    appetizers: [
+      {
+        name: "OLIVIEH",
+        pic: "",
+        description: "",
+        price: "",
+      },
+      {
+        name: "MAST_MOUSIR",
+        pic: "",
+        description: "",
+        price: "",
+      },
+      {
+        name: "BOURANI",
+        pic: "",
+        description: "",
+        price: "",
+      },
+      {
+        name: "NARGESI",
+        pic: "",
+        description: "",
+        price: "",
+      },
+      {
+        name: "NAZKHATOON",
+        pic: "",
+        description: "",
+        price: "",
+      },
+      {
+        name: "MASTO_KHIAR",
+        pic: "",
+        description: "",
+        price: "",
+      },
+      {
+        name: "KASHKE_BADEMJAN",
+        pic: "",
+        description: "",
+        price: "",
+      },
+      {
+        name: "MIRZA_GHASEMI",
+        pic: "",
+        description: "",
+        price: "",
+      },
+      {
+        name: "KOUFTEH_BERENJI",
+        pic: "",
+        description: "",
+        price: "",
+      },
+      {
+        name: "KOTLET",
+        pic: "",
+        description: "",
+        price: "",
+      },
+      {
+        name: "LAKHMAJOON",
+        pic: "",
+        description: "",
+        price: "",
+      },
+      {
+        name: "FRIED_POTATOES",
+        pic: "",
+        description: "",
+        price: "",
+      },
+      {
+        name: "FRIED_POTATOES_WITH_CHEESE",
+        pic: "",
+        description: "",
+        price: "",
+      },
+      {
+        name: "PERSIAN_BREAD",
+        pic: "",
+        description: "",
+        price: "",
+      },
+      {
+        name: "ASH_RESHTEH",
+        pic: "",
+        description: "",
+        price: "",
+      },
+      {
+        name: "JO_SOUP",
+        pic: "",
+        description: "",
+        price: "",
+      },
+      {
+        name: "SAGANAKI_CHEESE_WITH_RED_SAUCE",
+        pic: "",
+        description: "",
+        price: "",
+      },
+      {
+        name: "CHEESE_CROQUETTES_WITH_RED_SAUCE",
+        pic: "",
+        description: "",
+        price: "",
+      },
+      {
+        name: "SOSIS_BANDARI",
+        pic: "",
+        description: "",
+        price: "",
+      },
+      {
+        name: "HUMMUS",
+        pic: "",
+        description: "",
+        price: "",
+      },
+    ],
+  },
+  {
+    mainCourse: [
+      {
+        name: "JOUJE_KEBAB",
+        pic: "",
+        description: "",
+        price: "",
+      },
+      {
+        name: "KEBAB_BARG",
+        pic: "",
+        description: "",
+        price: "",
+      },
+      {
+        name: "KEBAB_KOUBIDEH",
+        pic: "",
+        description: "",
+        price: "",
+      },
+      {
+        name: "CHELO_KEBAB",
+        pic: "",
+        description: "",
+        price: "",
+      },
+      {
+        name: "KEBAB_CHENJEH",
+        pic: "",
+        description: "",
+        price: "",
+      },
+      {
+        name: "SOLTANI_WITH_RICE",
+        pic: "",
+        description: "",
+        price: "",
+      },
+      {
+        name: "SOLTANI_WITHOUT_RICE",
+        pic: "",
+        description: "",
+        price: "",
+      },
+      {
+        name: "KEBAB_MIX_FOR_2",
+        pic: "",
+        description: "",
+        price: "",
+      },
+      {
+        name: "KEBAB_MIX_FOR_4",
+        pic: "",
+        description: "",
+        price: "",
+      },
+      {
+        name: "SUPER_DISHES",
+        pic: "",
+        description: "",
+        price: "",
+      },
+      {
+        name: "ZERESH_POLO",
+        pic: "",
+        description: "",
+        price: "",
+      },
+      {
+        name: "SHIRIN_POLO",
+        pic: "",
+        description: "",
+        price: "",
+      },
+      {
+        name: "ZERESH_POLO_OR_SHIRIN_POLO",
+        pic: "",
+        description: "",
+        price: "",
+      },
+      {
+        name: "BAGHALI_POLO",
+        pic: "",
+        description: "",
+        price: "",
+      },
+      {
+        name: "KHORESHTE_GHEIME",
+        pic: "",
+        description: "",
+        price: "",
+      },
+      {
+        name: "KHORESHTE_ESFENAJ",
+        pic: "",
+        description: "",
+        price: "",
+      },
+      {
+        name: "KHORESHTE_GHORME_SABZI",
+        pic: "",
+        description: "",
+        price: "",
+      },
+      {
+        name: "KHORESHTE_FESENJAN",
+        pic: "",
+        description: "",
+        price: "13.00",
+      },
+      {
+        name: "BIFTEKI_SPECIAL_WITH_CHEESE_FILLING",
+        pic: "",
+        description: "",
+        price: "10.00",
+      },
+      {
+        name: "PERSIAN_RICE",
+        pic: "",
+        description: "",
+        price: "4.00",
+      },
+    ],
+  },
+  {
+    salads: [
+      {
+        name: "ANAHITA_SALAD",
+        pic: "",
+        description: "",
+        price: "7.00",
+      },
+      {
+        name: "PERSIAN_SALAD",
+        pic: "",
+        description: "",
+        price: "7.00",
+      },
+      {
+        name: "KARAFS_SALAD",
+        pic: "",
+        description: "",
+        price: "6.00",
+      },
+      {
+        name: "SHIRAZI_SALAD",
+        pic: "",
+        description: "",
+        price: "6.00",
+      },
+      {
+        name: "GREEN_SALAD",
+        pic: "",
+        description: "",
+        price: "8.00",
+      },
+      {
+        name: "SALAD_ROQUEFORT",
+        pic: "",
+        description: "",
+        price: "8.00",
+      },
+    ],
+  },
+  {
+    beverages: [
+      {
+        name: "COCA_COLA",
+        pic: "",
+        description: "",
+        price: "1.50",
+      },
+      {
+        name: "COCA_COLA_LIGHT",
+        pic: "",
+        description: "",
+        price: "1.50",
+      },
+      {
+        name: "COCA_COLA_ZERO",
+        pic: "",
+        description: "",
+        price: "1.50",
+      },
+      {
+        name: "SPRITE",
+        pic: "",
+        description: "",
+        price: "1.50",
+      },
+      {
+        name: "FANTA",
+        pic: "",
+        description: "",
+        price: "1.50",
+      },
+      {
+        name: "SODA",
+        pic: "",
+        description: "",
+        price: "1.50",
+      },
+      {
+        name: "SPARKLING_WATER",
+        pic: "",
+        description: "",
+        price: "1.50",
+      },
+      {
+        name: "WATER",
+        pic: "",
+        description: "",
+        price: "2.00",
+      },
+      {
+        name: "DOUGH",
+        pic: "",
+        description: "",
+        price: "3.00",
+      },
+    ],
+  },
+  {
+    wine: [
+      {
+        name: "WHITE_WINE",
+        pic: "",
+        description: "",
+        price: "5.00",
+      },
+      {
+        name: "RED_WINE",
+        pic: "",
+        description: "",
+        price: "5.00",
+      },
+    ],
+  },
+  {
+    coffeTea: [
+      {
+        name: "ESPRESSO",
+        pic: "",
+        description: "",
+        price: "2.50",
+      },
+      {
+        name: "FILTER_COFFEE",
+        pic: "",
+        description: "",
+        price: "2.50",
+      },
+      {
+        name: "GREEK_COFFEE",
+        pic: "",
+        description: "",
+        price: "2.00",
+      },
+      {
+        name: "PERSIAN_TEA",
+        pic: "",
+        description: "",
+        price: "1.50",
+      },
+    ],
+  },
+  {
+    desserts: [
+      {
+        name: "PERSIAN_ICE_CREAM",
+        pic: "",
+        description: "Saffron - Peanuts - Rose Water",
+        price: "3.50",
+      },
+      {
+        name: "EKMEK_WITH_ICE_CREAM",
+        pic: "",
+        description: "",
+        price: "5.00",
+      },
+      {
+        name: "WALNUT_PIE_WITH_ICE_CREAM",
+        pic: "",
+        description: "",
+        price: "5.00",
+      },
+      {
+        name: "RAVANI_WITH_ICE_CREAM",
+        pic: "",
+        description: "",
+        price: "5.00",
+      },
+      {
+        name: "FALOUDE",
+        pic: "",
+        description: "",
+        price: "4.00",
+      },
+    ],
+  },
+];
+
+export default menu;
