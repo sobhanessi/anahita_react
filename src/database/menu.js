@@ -1,294 +1,344 @@
+import anahitaSalad from "../menu/anahitasalad.jpg";
+import ashReshteh from "../menu/ashreshteh.jpg";
+import baghaliPolo from "../menu/baghalipolo.jpg";
+import bourani from "../menu/borani.jpg";
+import chesseCroquettes from "../menu/cheesecroquettes.jpg";
+import cheloKebab from "../menu/chelokebab.jpg";
+import faloudeh from "../menu/faloudeh.jpg";
+import friedPotatoes from "../menu/friedpotatoes.jpg";
+import friedPotatoesWithCheese from "../menu/friedpotatoeswithcheese.jpg";
+import greenSalad from "../menu/greensalad.jpg";
+import hamburgerspecial from "../menu/hamburgerspecial.jpg";
+import hummus from "../menu/hummus.jpg";
+import josoup from "../menu/josoup.jpg";
+import joujehkebab from "../menu/joujehkebab.jpg";
+import karafsSalad from "../menu/karafssalad.jpg";
+import kashkeBademjan from "../menu/kashkebademjoon.jpg";
+import kebabBarg from "../menu/kebabbarg.jpg";
+import kebabBargWithoutRice from "../menu/kebabbargwithoutrice.jpg";
+import kebabChenjeh from "../menu/kebabchenjeh.jpg";
+import kebabKoubideh from "../menu/kebabkoubideh.jpg";
+import kebabMix from "../menu/kebabmix.jpg";
+import kebabMixFor4 from "../menu/kebabmixfor4.jpg";
+import kebabSoltani from "../menu/kebabsoltani.jpg";
+import kebabSoltaniWithRice from "../menu/kebabsoltaniwithrice.jpg";
+import khoreshtehEsfenaj from "../menu/khoreshtehesfenaj.jpg";
+import khoreshtehFesenjan from "../menu/khoreshtehfesenjan.jpg";
+import khoreshtehGheime from "../menu/khoreshtehgheimeh.jpg";
+import khoreshtehGhormehSabzi from "../menu/khoreshtehghormehsabzi.jpg";
+import kooftehBerenji from "../menu/kooftehberenji.jpg";
+import kotlet from "../menu/kotlet.jpg";
+import lahmajoon from "../menu/lahmajoon.jpg";
+import mastMousir from "../menu/mast_mousir.jpg";
+import mastoKhiar from "../menu/mastokhiar.jpg";
+import mirzaGhasemi from "../menu/mirzaghasemi.jpg";
+import nargesi from "../menu/nargesi.jpg";
+import nazkhatoon from "../menu/nazkhatoon.jpg";
+import olivieh from "../menu/olivieh.jpg";
+import persianBread from "../menu/persianbread.jpg";
+import persianIceCream from "../menu/persianicecream.jpg";
+import persianRice from "../menu/persianrice.jpg";
+import persianSalad from "../menu/persiansalad.jpg";
+import saganaki from "../menu/saganaki.jpg";
+import saladWithRoquefort from "../menu/saladwithroquefort.jpg";
+import shiraziSalad from "../menu/shirazisalad.jpg";
+import shirinPolo from "../menu/shirinpolo.jpg";
+import sosisBandari from "../menu/sosisbandari.jpg";
+import superdish from "../menu/superdish.jpg";
+import zereshkPolo from "../menu/zereshkpolo.jpg";
+import zereshkPoloWithoutChicken from "../menu/zereshkpolowithoutrice.jpg";
+
 const menu = [
   {
-    appetizers: [
+    APPETIZERS: [
       {
         name: "OLIVIEH",
-        pic: "",
+        pic: olivieh,
         description: "",
         price: "",
       },
       {
         name: "MAST_MOUSIR",
-        pic: "",
+        pic: mastMousir,
         description: "",
         price: "",
       },
       {
         name: "BOURANI",
-        pic: "",
+        pic: bourani,
         description: "",
         price: "",
       },
       {
         name: "NARGESI",
-        pic: "",
+        pic: nargesi,
         description: "",
         price: "",
       },
       {
         name: "NAZKHATOON",
-        pic: "",
+        pic: nazkhatoon,
         description: "",
         price: "",
       },
       {
         name: "MASTO_KHIAR",
-        pic: "",
+        pic: mastoKhiar,
         description: "",
         price: "",
       },
       {
         name: "KASHKE_BADEMJAN",
-        pic: "",
+        pic: kashkeBademjan,
         description: "",
         price: "",
       },
       {
         name: "MIRZA_GHASEMI",
-        pic: "",
+        pic: mirzaGhasemi,
         description: "",
         price: "",
       },
       {
         name: "KOUFTEH_BERENJI",
-        pic: "",
+        pic: kooftehBerenji,
         description: "",
         price: "",
       },
       {
         name: "KOTLET",
-        pic: "",
+        pic: kotlet,
         description: "",
         price: "",
       },
       {
         name: "LAKHMAJOON",
-        pic: "",
+        pic: lahmajoon,
         description: "",
         price: "",
       },
       {
         name: "FRIED_POTATOES",
-        pic: "",
+        pic: friedPotatoes,
         description: "",
         price: "",
       },
       {
         name: "FRIED_POTATOES_WITH_CHEESE",
-        pic: "",
+        pic: friedPotatoesWithCheese,
         description: "",
         price: "",
       },
       {
         name: "PERSIAN_BREAD",
-        pic: "",
+        pic: persianBread,
         description: "",
         price: "",
       },
       {
         name: "ASH_RESHTEH",
-        pic: "",
+        pic: ashReshteh,
         description: "",
         price: "",
       },
       {
         name: "JO_SOUP",
-        pic: "",
+        pic: josoup,
         description: "",
         price: "",
       },
       {
         name: "SAGANAKI_CHEESE_WITH_RED_SAUCE",
-        pic: "",
+        pic: saganaki,
         description: "",
         price: "",
       },
       {
         name: "CHEESE_CROQUETTES_WITH_RED_SAUCE",
-        pic: "",
+        pic: chesseCroquettes,
         description: "",
         price: "",
       },
       {
         name: "SOSIS_BANDARI",
-        pic: "",
+        pic: sosisBandari,
         description: "",
         price: "",
       },
       {
         name: "HUMMUS",
-        pic: "",
+        pic: hummus,
         description: "",
         price: "",
       },
     ],
   },
   {
-    mainCourse: [
+    MAIN_COURSE: [
       {
         name: "JOUJE_KEBAB",
-        pic: "",
+        pic: joujehkebab,
         description: "",
         price: "",
       },
       {
         name: "KEBAB_BARG",
-        pic: "",
+        pic: kebabBarg,
         description: "",
         price: "",
       },
       {
         name: "KEBAB_KOUBIDEH",
-        pic: "",
+        pic: kebabKoubideh,
         description: "",
         price: "",
       },
       {
         name: "CHELO_KEBAB",
-        pic: "",
+        pic: cheloKebab,
         description: "",
         price: "",
       },
       {
         name: "KEBAB_CHENJEH",
-        pic: "",
+        pic: kebabChenjeh,
         description: "",
         price: "",
       },
       {
         name: "SOLTANI_WITH_RICE",
-        pic: "",
+        pic: kebabSoltaniWithRice,
         description: "",
         price: "",
       },
       {
         name: "SOLTANI_WITHOUT_RICE",
-        pic: "",
+        pic: kebabSoltani,
         description: "",
         price: "",
       },
       {
         name: "KEBAB_MIX_FOR_2",
-        pic: "",
+        pic: kebabMix,
         description: "",
         price: "",
       },
       {
         name: "KEBAB_MIX_FOR_4",
-        pic: "",
+        pic: kebabMixFor4,
         description: "",
         price: "",
       },
       {
         name: "SUPER_DISHES",
-        pic: "",
+        pic: superdish,
         description: "",
         price: "",
       },
       {
-        name: "ZERESH_POLO",
-        pic: "",
+        name: "ZERESHK_POLO",
+        pic: zereshkPolo,
         description: "",
         price: "",
       },
       {
         name: "SHIRIN_POLO",
-        pic: "",
+        pic: shirinPolo,
         description: "",
         price: "",
       },
       {
-        name: "ZERESH_POLO_OR_SHIRIN_POLO",
-        pic: "",
+        name: "ZERESHK_POLO_OR_SHIRIN_POLO",
+        pic: zereshkPoloWithoutChicken,
         description: "",
         price: "",
       },
       {
         name: "BAGHALI_POLO",
-        pic: "",
+        pic: baghaliPolo,
         description: "",
         price: "",
       },
       {
         name: "KHORESHTE_GHEIME",
-        pic: "",
+        pic: khoreshtehGheime,
         description: "",
         price: "",
       },
       {
         name: "KHORESHTE_ESFENAJ",
-        pic: "",
+        pic: khoreshtehEsfenaj,
         description: "",
         price: "",
       },
       {
         name: "KHORESHTE_GHORME_SABZI",
-        pic: "",
+        pic: khoreshtehGhormehSabzi,
         description: "",
         price: "",
       },
       {
         name: "KHORESHTE_FESENJAN",
-        pic: "",
+        pic: khoreshtehFesenjan,
         description: "",
         price: "13.00",
       },
       {
         name: "BIFTEKI_SPECIAL_WITH_CHEESE_FILLING",
-        pic: "",
+        pic: hamburgerspecial,
         description: "",
         price: "10.00",
       },
       {
         name: "PERSIAN_RICE",
-        pic: "",
+        pic: persianRice,
         description: "",
         price: "4.00",
       },
     ],
   },
   {
-    salads: [
+    SALADS: [
       {
         name: "ANAHITA_SALAD",
         pic: "",
-        description: "",
+        description: anahitaSalad,
         price: "7.00",
       },
       {
         name: "PERSIAN_SALAD",
-        pic: "",
+        pic: persianSalad,
         description: "",
         price: "7.00",
       },
       {
         name: "KARAFS_SALAD",
-        pic: "",
+        pic: karafsSalad,
         description: "",
         price: "6.00",
       },
       {
         name: "SHIRAZI_SALAD",
-        pic: "",
+        pic: shiraziSalad,
         description: "",
         price: "6.00",
       },
       {
         name: "GREEN_SALAD",
-        pic: "",
+        pic: greenSalad,
         description: "",
         price: "8.00",
       },
       {
         name: "SALAD_ROQUEFORT",
-        pic: "",
+        pic: saladWithRoquefort,
         description: "",
         price: "8.00",
       },
     ],
   },
   {
-    beverages: [
+    BEVERAGES: [
       {
         name: "COCA_COLA",
         pic: "",
@@ -346,7 +396,7 @@ const menu = [
     ],
   },
   {
-    wine: [
+    WINE: [
       {
         name: "WHITE_WINE",
         pic: "",
@@ -362,7 +412,7 @@ const menu = [
     ],
   },
   {
-    coffeTea: [
+    COFFEE_TEA: [
       {
         name: "ESPRESSO",
         pic: "",
@@ -390,10 +440,10 @@ const menu = [
     ],
   },
   {
-    desserts: [
+    DESSERTS: [
       {
         name: "PERSIAN_ICE_CREAM",
-        pic: "",
+        pic: persianIceCream,
         description: "Saffron - Peanuts - Rose Water",
         price: "3.50",
       },
@@ -417,7 +467,7 @@ const menu = [
       },
       {
         name: "FALOUDE",
-        pic: "",
+        pic: faloudeh,
         description: "",
         price: "4.00",
       },
