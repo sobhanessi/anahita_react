@@ -40,7 +40,7 @@ const menu = [
       },
       {
         name: "KASHKE_BADEMJAN",
-        pic: "/menu/kashkebademjoon",
+        pic: "/menu/kashkebademjoon.jpg",
         description: "",
         price: "7.00",
       },

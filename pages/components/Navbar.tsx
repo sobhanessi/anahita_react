@@ -24,9 +24,9 @@ import {
   NAVBAR_ICON_BUTTON_DISPLAY,
 } from "../../public/theme/theme";
 import List from "@mui/material/List";
-import ListItem from "@mui/material/ListItem";
-import ListItemButton from "@mui/material/ListItemButton";
-import ListItemText from "@mui/material/ListItemText";
+// import ListItem from "@mui/material/ListItem";
+// import ListItemButton from "@mui/material/ListItemButton";
+// import ListItemText from "@mui/material/ListItemText";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import PhoneIcon from "@mui/icons-material/Phone";
@@ -50,24 +50,24 @@ const titles = [
   },
 ];
 
-const Main = styled("main", { shouldForwardProp: (prop) => prop !== "open" })<{
-  open?: boolean;
-}>(({ theme, open }) => ({
-  flexGrow: 1,
-  padding: theme.spacing(3),
-  transition: theme.transitions.create("margin", {
-    easing: theme.transitions.easing.sharp,
-    duration: theme.transitions.duration.leavingScreen,
-  }),
-  marginLeft: `-${drawerWidth}px`,
-  ...(open && {
-    transition: theme.transitions.create("margin", {
-      easing: theme.transitions.easing.easeOut,
-      duration: theme.transitions.duration.enteringScreen,
-    }),
-    marginLeft: 0,
-  }),
-}));
+// const Main = styled("main", { shouldForwardProp: (prop) => prop !== "open" })<{
+//   open?: boolean;
+// }>(({ theme, open }) => ({
+//   flexGrow: 1,
+//   padding: theme.spacing(3),
+//   transition: theme.transitions.create("margin", {
+//     easing: theme.transitions.easing.sharp,
+//     duration: theme.transitions.duration.leavingScreen,
+//   }),
+//   marginLeft: `-${drawerWidth}px`,
+//   ...(open && {
+//     transition: theme.transitions.create("margin", {
+//       easing: theme.transitions.easing.easeOut,
+//       duration: theme.transitions.duration.enteringScreen,
+//     }),
+//     marginLeft: 0,
+//   }),
+// }));
 
 interface AppBarProps extends MuiAppBarProps {
   open?: boolean;
@@ -116,7 +116,7 @@ export default function Navbar() {
     setLanguage(event.target.value);
   };
   return (
-    <Box sx={{ display: "flex" }}>
+    <Box sx={{ display: "flex", mb: 10 }}>
       <CssBaseline />
       <AppBar position="fixed" open={open} sx={{ bgcolor: "white" }}>
         <Toolbar>
@@ -218,7 +218,7 @@ export default function Navbar() {
         </DrawerHeader>
         <Divider />
         <List>
-          {titles.map((title) => (
+          {/* {titles.map((title) => (
             <ListItem key={title.header} disablePadding>
               <ListItemButton>
                 <Typography
@@ -233,13 +233,62 @@ export default function Navbar() {
                 <ListItemText primary={title.header} />
               </ListItemButton>
             </ListItem>
+          ))} */}
+
+          {titles.map((title) => (
+            <>
+              {title.header !== "CHOOSE YOUR LANGUAGE" ? (
+                <Typography
+                  // variant="p"
+                  noWrap
+                  component="a"
+                  href={title.href}
+                  sx={{ ...NAVBAR_APPBAR_TYPOGRAPHY, color: "black" }}
+                >
+                  <span
+                    style={{
+                      marginLeft: "15px",
+                      marginRight: "10px",
+                      marginBottom: "8px",
+                      display: "flex",
+                      alignItems: "center",
+                      color: "black",
+                    }}
+                  >
+                    {title.icon}
+                  </span>
+                  <span>{title.header}</span>
+                </Typography>
+              ) : (
+                <FormControl sx={{ m: 2, minWidth: 140 }}>
+                  <InputLabel id="demo-simple-select-helper-label">
+                    Language
+                  </InputLabel>
+                  <Select
+                    labelId="demo-simple-select-helper-label"
+                    id="demo-simple-select-helper"
+                    value={language}
+                    label="Language"
+                    onChange={handleLanguage}
+                    displayEmpty
+                  >
+                    <MenuItem value="gr">
+                      <em>ΕΛΛΗΝΙΚΑ</em>
+                    </MenuItem>
+                    {title?.languages?.map((l) => (
+                      <MenuItem value={l.code}>{l.header}</MenuItem>
+                    ))}
+                  </Select>
+                </FormControl>
+              )}
+            </>
           ))}
         </List>
         <Divider />
       </Drawer>
-      <Main open={open}>
+      {/* <Main open={open}>
         <DrawerHeader />
-      </Main>
+      </Main> */}
     </Box>
   );
 }
