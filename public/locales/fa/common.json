@@ -1,44 +1,44 @@
 {
   "MENU": {
     "DESSERTS": {
-      "PERSIAN_ICE_CREAM": { "NAME": "Persian Ice Cream", "PRICE": "3.50" },
+      "PERSIAN_ICE_CREAM": { "NAME": "بستنی زعفرانی ایرانی", "PRICE": "۳.۵۰" },
       "EKMEK_WITH_ICE_CREAM": {
-        "NAME": "Ekmek With Ice Cream",
+        "NAME": "اکمک با بستنی",
         "PRICE": "5.00"
       },
       "WALNUT_PIE_WITH_ICE_CREAM": {
-        "NAME": "Walnut Pie With Ice Cream",
-        "PRICE": "5.00"
+        "NAME": "پای گردو با بستنی",
+        "PRICE": "۵.۰۰"
       },
       "RAVANI_WITH_ICE_CREAM": {
-        "NAME": "Ravani With Ice Cream",
-        "PRICE": "5.00"
+        "NAME": "راوانی با بستنی",
+        "PRICE": "۵.۰۰"
       },
-      "FALOUDE": { "NAME": "Faloude", "PRICE": "4.00" }
+      "FALOUDE": { "NAME": "فالوده", "PRICE": "۴.۰۰" }
     },
     "COFFEE_TEA": {
-      "PERSIAN_TEA": { "NAME": "Persian Tea", "PRICE": "1.50" },
-      "GREEK_COFFEE": { "NAME": "Greek Coffee", "PRICE": "2.00" },
-      "FILTER_COFFEE": { "NAME": "Filter Coffee", "PRICE": "2.50" },
-      "ESPRESSO": { "NAME": "Espresso", "PRICE": "2.50" }
+      "PERSIAN_TEA": { "NAME": "چای ایرانی", "PRICE": "۱.۵۰" },
+      "GREEK_COFFEE": { "NAME": "قهوه یونانی", "PRICE": "۲.۰۰" },
+      "FILTER_COFFEE": { "NAME": "قهوه فیلتر شده", "PRICE": "۲.۵۰" },
+      "ESPRESSO": { "NAME": "اسپرسو", "PRICE": "۲.۵۰" }
     },
     "WINE": {
-      "RED_WINE": { "NAME": "Red Wine 500ml", "PRICE": "5.00" },
-      "WHITE_WINE": { "NAME": "White Wine 500ml", "PRICE": "5.00" }
+      "RED_WINE": { "NAME": "شراب قرمز ۵۰۰ میلی لیتر", "PRICE": "۵.۰۰" },
+      "WHITE_WINE": { "NAME": "شراب سفید ۵۰۰ میلی لیتر", "PRICE": "۵.۰۰" }
     },
     "BEVERAGES": {
       "DOUGH": {
         "NAME": "Dough (Yogurt - Soda - Mint) 500ml",
         "PRICE": "3.00"
       },
-      "WATER": { "NAME": "Water 1L", "PRICE": "2.00" },
-      "SPARKLING_WATER": { "NAME": "Sparkling Water 250ml", "PRICE": "1.50" },
-      "SODA": { "NAME": "Soda 250ml", "PRICE": "1.50" },
-      "FANTA": { "NAME": "Fanta 250ml", "PRICE": "1.50" },
-      "SPRITE": { "NAME": "Sprite 250ml", "PRICE": "1.50" },
-      "COCA_COLA_ZER0": { "NAME": "Coca Cola Zero 250ml", "PRICE": "1.50" },
-      "COCA_COLA_LIGHT": { "NAME": "Coca Cola Light 250ml", "PRICE": "1.50" },
-      "COCA_COLA": { "NAME": "Coca Cola 250ml", "PRICE": "1.50" }
+      "WATER": { "NAME": "Water 1L", "PRICE": "۲.۰۰" },
+      "SPARKLING_WATER": { "NAME": "Sparkling Water 250ml", "PRICE": "۱.۵۰" },
+      "SODA": { "NAME": "Soda 250ml", "PRICE": "۱.۵۰" },
+      "FANTA": { "NAME": "Fanta 250ml", "PRICE": "۱.۵۰" },
+      "SPRITE": { "NAME": "Sprite 250ml", "PRICE": "۱.۵۰" },
+      "COCA_COLA_ZER0": { "NAME": "Coca Cola Zero 250ml", "PRICE": "۱.۵۰" },
+      "COCA_COLA_LIGHT": { "NAME": "Coca Cola Light 250ml", "PRICE": "۱.۵۰" },
+      "COCA_COLA": { "NAME": "Coca Cola 250ml", "PRICE": "۱.۵۰" }
     },
     "SALADS": {
       "SALAD_ROQUEFORT": {
@@ -77,7 +77,7 @@
       "PERSIAN_RICE": {
         "NAME": "Persian Rice",
         "DESCRIPTION": "Rice with Saffron",
-        "PRICE": "4.00"
+        "PRICE": "۴.۰۰"
       },
       "BIFTEKI_SPECIAL_WITH_CHEESE_FILLING": {
         "NAME": "Bifteki Special With Cheese Filling",
@@ -132,7 +132,7 @@
       "KEBAB_MIX_FOR_4": {
         "NAME": "Kebab Mix For 4",
         "DESCRIPTION": "Two Minced Lamb - One Skewered Chicken - One Fillet of Beef - One Skewered Lamb Kebabs",
-        "PRICE": "34.00"
+        "PRICE": "3۴.۰۰"
       },
       "KEBAB_MIX_FOR_2": {
         "NAME": "Kebab Mix For 2",
@@ -179,22 +179,22 @@
       "HUMMUS": {
         "NAME": "Hummus",
         "DESCRIPTION": "Chickpeas - Garlic - Tahini",
-        "PRICE": "4.00"
+        "PRICE": "۴.۰۰"
       },
       "SOSIS_BANDARI": {
         "NAME": "Sosis Bandari",
         "DESCRIPTION": "Hot Dog - Onion - Hot Pepper - Red Sauce",
-        "PRICE": "4.00"
+        "PRICE": "۴.۰۰"
       },
       "CHEESE_CROQUETTES_WITH_RED_SAUCE": {
         "NAME": "Cheese Croquettes With Red Sauce",
         "DESCRIPTION": "",
-        "PRICE": "4.00"
+        "PRICE": "۴.۰۰"
       },
       "SAGANAKI_CHEESE_WITH_RED_SAUCE": {
         "NAME": "Saganaki Cheese With Red Sauce",
         "DESCRIPTION": "",
-        "PRICE": "4.00"
+        "PRICE": "۴.۰۰"
       },
       "JO_SOUP": {
         "NAME": "Jo Soup",
@@ -249,32 +249,32 @@
       "MASTO_KHIAR": {
         "NAME": "Masto Khiar",
         "DESCRIPTION": "Yogurt - Cucumber - Mint",
-        "PRICE": "4.00"
+        "PRICE": "۴.۰۰"
       },
       "NAZKHATOON": {
         "NAME": "NAZKHATOON",
         "DESCRIPTION": "Yogurt - Smoked Eggplant - Garlic",
-        "PRICE": "4.00"
+        "PRICE": "۴.۰۰"
       },
       "NARGESI": {
         "NAME": "Nargesi",
         "DESCRIPTION": "Spinach - Eggs - Garlic",
-        "PRICE": "4.00"
+        "PRICE": "۴.۰۰"
       },
       "BOURANI": {
         "NAME": "Bourani",
         "DESCRIPTION": "Yogurt - Spinach - Garlic",
-        "PRICE": "4.00"
+        "PRICE": "۴.۰۰"
       },
       "MAST_MOUSIR": {
         "NAME": "Mast Mousir",
         "DESCRIPTION": "Yogurt - Odorless - Garlic",
-        "PRICE": "4.00"
+        "PRICE": "۴.۰۰"
       },
       "OLIVIEH": {
-        "NAME": "Olivieh",
-        "DESCRIPTION": "Potatoes - Eggs - Chicken - Pickles - Mayonnaise",
-        "PRICE": "4.00"
+        "NAME": "الیویه",
+        "DESCRIPTION": "",
+        "PRICE": "۴.۰۰"
       }
     }
   }

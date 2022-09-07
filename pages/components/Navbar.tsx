@@ -99,10 +99,9 @@ const DrawerHeader = styled("div")(({ theme }) => ({
   justifyContent: "flex-end",
 }));
 
-export default function Navbar() {
+export default function Navbar({ language, setLanguage }: any): JSX.Element {
   const theme = useTheme();
   const [open, setOpen] = React.useState(false);
-  const [language, setLanguage] = React.useState("gr");
 
   const handleDrawerOpen = () => {
     setOpen(true);
@@ -113,7 +112,7 @@ export default function Navbar() {
   };
 
   const handleLanguage = (event: SelectChangeEvent) => {
-    setLanguage(event.target.value);
+    return setLanguage(event.target.value);
   };
   return (
     <Box sx={{ display: "flex", mb: 10 }}>
@@ -153,6 +152,7 @@ export default function Navbar() {
                     component="a"
                     href={title.href}
                     sx={{ ...NAVBAR_APPBAR_TYPOGRAPHY, color: "black" }}
+                    key={title.header}
                   >
                     <span
                       style={{
@@ -179,11 +179,13 @@ export default function Navbar() {
                       onChange={handleLanguage}
                       displayEmpty
                     >
-                      <MenuItem value="gr">
+                      <MenuItem value="gr" key="gr">
                         <em>ΕΛΛΗΝΙΚΑ</em>
                       </MenuItem>
                       {title?.languages?.map((l) => (
-                        <MenuItem value={l.code}>{l.header}</MenuItem>
+                        <MenuItem value={l.code} key={l.code}>
+                          {l.header}
+                        </MenuItem>
                       ))}
                     </Select>
                   </FormControl>
@@ -244,6 +246,7 @@ export default function Navbar() {
                   component="a"
                   href={title.href}
                   sx={{ ...NAVBAR_APPBAR_TYPOGRAPHY, color: "black" }}
+                  key={title.header}
                 >
                   <span
                     style={{
@@ -272,11 +275,13 @@ export default function Navbar() {
                     onChange={handleLanguage}
                     displayEmpty
                   >
-                    <MenuItem value="gr">
+                    <MenuItem value="gr" key="gr">
                       <em>ΕΛΛΗΝΙΚΑ</em>
                     </MenuItem>
                     {title?.languages?.map((l) => (
-                      <MenuItem value={l.code}>{l.header}</MenuItem>
+                      <MenuItem value={l.code} key={l.code}>
+                        {l.header}
+                      </MenuItem>
                     ))}
                   </Select>
                 </FormControl>

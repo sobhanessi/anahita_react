@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   Card,
   CardContent,
@@ -25,15 +25,17 @@ export async function getStaticProps({ locale }) {
 function Menu(): JSX.Element {
   const { t, i18n } = useTranslation();
 
-  // console.log(
-  //   menu.map((mm) =>
-  //     Object.keys(mm).map((m) => mm[m].map((men) => console.log(men.pic)))
-  //   )
-  // );
+  const [language, setLanguage] = React.useState("en");
+
+  useEffect(() => {
+    i18n.changeLanguage(language).then((t) => t("fa"));
+  }, [language]);
+
+  console.log(language);
 
   return (
     <>
-      <Navbar />
+      <Navbar language={language} setLanguage={setLanguage} />
       <Container>
         <Grid container justifyContent={"center"}>
           {menu.map((mm) => (
@@ -78,6 +80,7 @@ function Menu(): JSX.Element {
                                     fontSize: "1.5em",
                                     mr: 1,
                                   }}
+                                  key={men.name + "1"}
                                 >
                                   {t(`MENU.${m}.${men.name}.NAME`)}
                                 </Typography>
@@ -89,6 +92,7 @@ function Menu(): JSX.Element {
                                     fontWeight: 500,
                                     mr: 2,
                                   }}
+                                  key={men.name + "2"}
                                 >
                                   {i18n.exists(
                                     `MENU.${m}.${men.name}.DESCRIPTION`
@@ -109,6 +113,7 @@ function Menu(): JSX.Element {
                                     display: "flex",
                                     flexDirection: "row",
                                   }}
+                                  key={men.name + "3"}
                                 >
                                   <span> € </span>
                                   <span>
