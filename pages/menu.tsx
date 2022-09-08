@@ -13,6 +13,7 @@ import Navbar from "./components/Navbar";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 import { useRouter } from "next/router";
+import { PERSIAN_FONT_FAMILY } from "../public/theme/theme";
 
 export async function getStaticProps({ locale }) {
   return {
@@ -47,6 +48,12 @@ function Menu(): JSX.Element {
                         mb: 4,
                         fontWeight: "bold",
                         fontSize: "1.75em",
+                        fontFamily:
+                          locale === "fa"
+                            ? PERSIAN_FONT_FAMILY
+                            : locale === "en"
+                            ? "sans-serif"
+                            : "",
                       }}
                       dir={locale === "fa" ? "rtl" : "ltr"}
                     >
@@ -91,6 +98,8 @@ function Menu(): JSX.Element {
                             mt: 2,
                             mb: 2,
                             backgroundColor: "#ebe3d9",
+                            borderRadius: "15px",
+                            boxShadow: 20,
                           }}
                           key={men.name}
                           dir={locale === "fa" ? "rtl" : "ltr"}
@@ -106,6 +115,12 @@ function Menu(): JSX.Element {
                                     fontWeight: 700,
                                     fontSize: "1.5em",
                                     mr: 1,
+                                    fontFamily:
+                                      locale === "fa"
+                                        ? PERSIAN_FONT_FAMILY
+                                        : locale === "en"
+                                        ? "sans-serif"
+                                        : "",
                                   }}
                                   key={men.name + "1"}
                                 >
@@ -118,6 +133,12 @@ function Menu(): JSX.Element {
                                     fontSize: "1.2em",
                                     fontWeight: 500,
                                     mr: 2,
+                                    fontFamily:
+                                      locale === "fa"
+                                        ? PERSIAN_FONT_FAMILY
+                                        : locale === "en"
+                                        ? "sans-serif"
+                                        : "",
                                   }}
                                   key={men.name + "2"}
                                 >
@@ -139,6 +160,12 @@ function Menu(): JSX.Element {
                                     fontWeight: "bold",
                                     display: "flex",
                                     flexDirection: "row",
+                                    fontFamily:
+                                      locale === "fa"
+                                        ? PERSIAN_FONT_FAMILY
+                                        : locale === "en"
+                                        ? "sans-serif"
+                                        : "",
                                   }}
                                   key={men.name + "3"}
                                 >
@@ -151,7 +178,7 @@ function Menu(): JSX.Element {
                             </Grid>
                           </CardContent>
                         </Card>
-                        <Divider />
+                        {/* <Divider /> */}
                       </>
                     ))}
                   </Grid>
