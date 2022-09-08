@@ -3,232 +3,232 @@
     "DESSERTS": {
       "PERSIAN_ICE_CREAM": {
         "NAME": "ΓΛΥΚΑ Περσικό παγωτό (σαφράν, φιστίκι Αrγίνης , ροδόνερο)",
-        "PRICE": "3.50"
+        "PRICE": "4.50"
       },
       "EKMEK_WITH_ICE_CREAM": {
         "NAME": "Εκμέκ παγωτό",
-        "PRICE": "5.00"
+        "PRICE": "7.00"
       },
       "WALNUT_PIE_WITH_ICE_CREAM": {
         "NAME": "Καρυδόπιτα παγωτό",
-        "PRICE": "5.00"
+        "PRICE": "7.00"
       },
       "RAVANI_WITH_ICE_CREAM": {
         "NAME": "Ραβανί παγωτό",
-        "PRICE": "5.00"
+        "PRICE": "7.00"
       },
-      "FALOUDE": { "NAME": "Φαλουντέ", "PRICE": "4.00" }
+      "FALOUDE": { "NAME": "Φαλουντέ", "PRICE": "5.00" }
     },
     "COFFEE_TEA": {
-      "PERSIAN_TEA": { "NAME": "Περσικό τσάι", "PRICE": "1.50" },
-      "GREEK_COFFEE": { "NAME": "Ελληνικός", "PRICE": "2.00" },
-      "FILTER_COFFEE": { "NAME": "Φίλ", "PRICE": "2.50" },
-      "ESPRESSO": { "NAME": "Εσπρέσο", "PRICE": "2.50" }
+      "PERSIAN_TEA": { "NAME": "Περσικό τσάι", "PRICE": "2.50" },
+      "GREEK_COFFEE": { "NAME": "Ελληνικός", "PRICE": "3.00" },
+      "FILTER_COFFEE": { "NAME": "Φίλ", "PRICE": "3.50" },
+      "ESPRESSO": { "NAME": "Εσπρέσο", "PRICE": "3.50" }
     },
     "WINE": {
       "RED_WINE": {
         "NAME": "Ερυθρό Νεμέας (Αγιωργίτικο ) 500ml",
-        "PRICE": "5.00"
+        "PRICE": "6.00"
       },
       "WHITE_WINE": {
         "NAME": "Λευκό Νεμέας (Μοσχοφίλερο) 500ml",
-        "PRICE": "5.00"
+        "PRICE": "6.00"
       }
     },
     "BEVERAGES": {
       "DOUGH": {
         "NAME": "Dough (Yogurt - Soda - Mint) 500ml",
-        "PRICE": "3.00"
+        "PRICE": "4.00"
       },
-      "WATER": { "NAME": "Water 1L", "PRICE": "2.00" },
-      "SPARKLING_WATER": { "NAME": "Sparkling Water 250ml", "PRICE": "1.50" },
-      "SODA": { "NAME": "Soda 250ml", "PRICE": "1.50" },
-      "FANTA": { "NAME": "Fanta 250ml", "PRICE": "1.50" },
-      "SPRITE": { "NAME": "Sprite 250ml", "PRICE": "1.50" },
-      "COCA_COLA_ZER0": { "NAME": "Coca Cola Zero 250ml", "PRICE": "1.50" },
-      "COCA_COLA_LIGHT": { "NAME": "Coca Cola Light 250ml", "PRICE": "1.50" },
-      "COCA_COLA": { "NAME": "Coca Cola 250ml", "PRICE": "1.50" }
+      "WATER": { "NAME": "Water 1L", "PRICE": "3.00" },
+      "SPARKLING_WATER": { "NAME": "Sparkling Water 250ml", "PRICE": "2.50" },
+      "SODA": { "NAME": "Soda 250ml", "PRICE": "2.50" },
+      "FANTA": { "NAME": "Fanta 250ml", "PRICE": "2.50" },
+      "SPRITE": { "NAME": "Sprite 250ml", "PRICE": "2.50" },
+      "COCA_COLA_ZER0": { "NAME": "Coca Cola Zero 250ml", "PRICE": "2.50" },
+      "COCA_COLA_LIGHT": { "NAME": "Coca Cola Light 250ml", "PRICE": "2.50" },
+      "COCA_COLA": { "NAME": "Coca Cola 250ml", "PRICE": "2.50" }
     },
     "SALADS": {
       "SALAD_ROQUEFORT": {
         "NAME": "Σαλάτα ροκφόρ",
         "DESCRIPTION": "Μαρούλι, ντομάτα , αγγούρι , καρότο, πιπεριά, σως ροκφρ",
-        "PRICE": "8.00"
+        "PRICE": "9.00"
       },
       "GREEN_SALAD": {
         "NAME": "Πράσινη σαλάτα",
         "DESCRIPTION": "Μαρούλι, ρόκα, ντομάτα, ελιές , παρμεζάνα, μπαλσάμικο",
-        "PRICE": "8.00"
+        "PRICE": "9.00"
       },
 
       "SHIRAZI_SALAD": {
         "NAME": "Σιραζί",
         "DESCRIPTION": "Ψιλοκομμένη ντομάτα, αγγούρι , κρεμμύδι λεμόν, λάδι",
-        "PRICE": "6.00"
+        "PRICE": "7.00"
       },
       "KARAFS_SALAD": {
         "NAME": "Σαλάτα κράφς",
         "DESCRIPTION": "Σέλερι, μήλο, ραπανάκι, σως γιαουρτιού",
-        "PRICE": "6.00"
+        "PRICE": "7.00"
       },
       "PERSIAN_SALAD": {
         "NAME": "Περσική σαλάτα",
         "DESCRIPTION": "Μαρούλι, ντομάτα, αγγούρι, καρότο, σως γιαουρτιού",
-        "PRICE": "7.00"
+        "PRICE": "8.00"
       },
       "ANAHITA_SALAD": {
         "NAME": "Αναχίτα",
         "DESCRIPTION": "Λάχανο κόκκινο και λευκό , καρότο, καλαμπ λάδι, ξύδι",
-        "PRICE": "7.00"
+        "PRICE": "8.00"
       }
     },
     "MAIN_COURSE": {
       "PERSIAN_RICE": {
         "NAME": "Περσικό ρύζι",
         "DESCRIPTION": "Ρύζι, σαφράν",
-        "PRICE": "4.00"
+        "PRICE": "5.00"
       },
       "BIFTEKI_SPECIAL_WITH_CHEESE_FILLING": {
         "NAME": "Μπιφτέκι Special με γέμιση τυρί",
         "DESCRIPTION": "Μπιφτέκι από αρνίσιο κιμά , ντομάτα , πατάτες",
-        "PRICE": "10.00"
+        "PRICE": "11.00"
       },
       "KHORESHTE_FESENJAN": {
         "NAME": "Χορέστε φεσεντζούν",
         "DESCRIPTION": "Ρύζι με σαφράν και σάλτσα με πελτέροδιού , καρύδι , κεφτεδάκια",
-        "PRICE": "13.00"
+        "PRICE": "15.00"
       },
       "KHORESHTE_GHORME_SABZI": {
         "NAME": "Χορέστε γκορμέ σαμπζί",
         "DESRIPTION": "Ρύζι με σαφράν και πράσινη σάλτσα με μυρωδικά μοσχαρίσιο κρέας, λεμόνι",
-        "PRICE": "12.00"
+        "PRICE": "13.00"
       },
       "KHORESHTE_ESFENAJ": {
         "NAME": "Χορέστε εσφενάτζ",
         "DESCRIPTION": "Ρύζι με σαφράν και πράσινη σάλτσα με σπανάκι, κοτόπουλο",
-        "PRICE": "12.00"
+        "PRICE": "13.00"
       },
       "KHORESHTE_GHEIME": {
         "NAME": "Χορέστε γκεϊμέ",
         "DESCRIPTION": "Ρύζι με σαφράν και κόκκινη σάλτσα με φάβα, μοσχαρίσιο κρέας, λεμόνι",
-        "PRICE": "12.00"
+        "PRICE": "13.00"
       },
       "BAGHALI_POLO": {
         "NAME": "Μπαγαλί πολό",
         "DESCRIPTION": "Ρύζι, άνηθος, κουκιά, κοτόπουλο ή αρνί",
-        "PRICE": "12.00"
+        "PRICE": "13.00"
       },
       "ZERESHK_POLO_OR_SHIRIN_POLO": {
         "NAME": "Ζερέσκ πολό ή Σιρίν πολό Χωρίς κοτόπουλο",
         "DESCRIPTION": "Χωρίς κοτόπουλο",
-        "PRICE": "6.50"
+        "PRICE": "7.50"
       },
       "SHIRIN_POLO": {
         "NAME": "Σιρίν πολό",
         "DESCRIPTION": "Ρύζι, φλούδα πορτοκαλιού, αμύγδαλο, φιστίκι Αιγγίνης, καρότο,κοτόπουλο",
-        "PRICE": "12.00"
+        "PRICE": "13.00"
       },
       "ZERESHK_POLO": {
         "NAME": "Ζερέσκ πολό",
         "DESCRIPTION": "Ρύζι, φραγκοστάφυλο, φιστίκι Αιγίνης, αμύγδαλο, κοτόπουλο",
-        "PRICE": "12.00"
+        "PRICE": "13.00"
       },
       "SUPER_DISHES": {
         "NAME": "Δίσκος κεμπάπ special",
         "DESCRIPTION": "Διάφορα κεμπάπ και ρύζια για 6 ατ.",
-        "PRICE": "55.00"
+        "PRICE": "56.00"
       },
       "KEBAB_MIX_FOR_4": {
         "NAME": "Δίσκος κεμπάπ για 4 ατ.",
         "DESCRIPTION": "2 κουμπιντέ - 1 σουβλάκι κοτόπουλο - 1 μπάργκ - 1 τσεντζέ",
-        "PRICE": "34.00"
+        "PRICE": "35.00"
       },
       "KEBAB_MIX_FOR_2": {
         "NAME": "Δίσκος κεμπάπ για 2 ατ.",
         "DESCRIPTION": "κουμπιντέ , 1 μπάργκ, 1 σουβλάκι κοτόπουλο",
-        "PRICE": "22.00"
+        "PRICE": "23.00"
       },
       "SOLTANI_WITH_RICE": {
         "NAME": "Σολτάνι",
         "DESCRIPTION": "Φιλέτο μοσχι και κεμπάπ από αρνίσιο κιμά, ρύζι ή πατάτες . ντομάτα ψητή",
-        "PRICE": "15.00"
+        "PRICE": "16.00"
       },
       "SOLTANI_WITHOUT_RICE": {
         "NAME": "Σολτάνι",
         "DESCRIPTION": "Φιλέτο μοσχάρι και κεμπάπ από αρνίσιο κιμά, πίτα, ντομάτα ψητή",
-        "PRICE": "13.00"
+        "PRICE": "14.00"
       },
       "KEBAB_CHENJEH": {
         "NAME": "Κεμπάπ τσεντζέ",
         "DESCRIPTION": "Κομμάτια αρνίσιο , ρύζιή πατάτες , ντομάτα ψητή",
-        "PRICE": "12.00"
+        "PRICE": "13.00"
       },
       "CHELO_KEBAB": {
         "NAME": "Τσελό κεμπάπ",
         "DESCRIPTION": "Κεμπάπ από αρνίσιο κιμά, ρύζι ή πατάτες , ντομάτα ψητή",
-        "PRICE": "12.00"
+        "PRICE": "13.00"
       },
       "KEBAB_KOUBIDEH": {
         "NAME": "Κεμπάπ κουμπιντέ",
         "DESCRIPTION": "Κεμπάπ από αρνίσιο κιμά, πίτα, ντομάτα ψητή",
-        "PRICE": "10.00"
+        "PRICE": "11.00"
       },
       "KEBAB_BARG": {
         "NAME": "Κεμπάπ μπάργκ",
         "DESCRIPTION": "Φιλέτο μοσχάρι , ρύζι ή πατάτες, ντομάτα ψητή",
-        "PRICE": "12.00"
+        "PRICE": "13.00"
       },
       "JOUJE_KEBAB": {
         "NAME": "Τζουτζέ κεμπάπ",
         "DESCRIPTION": "Σουβλάκι κοτόπουλο , ρύζ, ντομάτα ψητή",
-        "PRICE": "10.00"
+        "PRICE": "11.00"
       }
     },
     "APPETIZERS": {
       "HUMMUS": {
         "NAME": "Χουμούς",
         "DESCRIPTION": "",
-        "PRICE": "4.00"
+        "PRICE": "5.00"
       },
       "SOSIS_BANDARI": {
         "NAME": "Σοσίς μπανδαρί",
         "DESCRIPTION": "Λουκάνικο, κρεμμύδι , καυτερή πιπεριά , κόκκινη σάλτσα",
-        "PRICE": "4.00"
+        "PRICE": "5.00"
       },
       "CHEESE_CROQUETTES_WITH_RED_SAUCE": {
         "NAME": "Τυροκροκέτες με κόκκινο σός",
         "DESCRIPTION": "",
-        "PRICE": "4.00"
+        "PRICE": "5.00"
       },
       "SAGANAKI_CHEESE_WITH_RED_SAUCE": {
         "NAME": "Τυρί στο φούρνο με κόκκινο σός",
         "DESCRIPTION": "",
-        "PRICE": "4.00"
+        "PRICE": "5.00"
       },
       "JO_SOUP": {
         "NAME": "Σούπα Τζο",
         "DESCRIPTION": "Σούπα με κριθάρι , καρότo, κρέμα γάλακτος",
-        "PRICE": "5.00"
+        "PRICE": "6.00"
       },
       "ASH_RESHTEH": {
         "NAME": "Ας Ρεστε",
         "DESCRIPTION": "Σούπα με όσπρια και σπανάκι, φιδές ρυζιού",
-        "PRICE": "5.00"
+        "PRICE": "6.00"
       },
       "PERSIAN_BREAD": {
         "NAME": "Περσικό ψωμί",
         "DESCRIPTION": "",
-        "PRICE": "1.50"
+        "PRICE": "2.50"
       },
       "FRIED_POTATOES_WITH_CHEESE": {
         "NAME": "Πατάτες τηγανιτές με τυρί",
         "DESCRIPTION": "",
-        "PRICE": "3.50"
+        "PRICE": "4.50"
       },
       "FRIED_POTATOES": {
         "NAME": "Πατάτες τηγανιτές",
         "DESCRIPTION": "",
-        "PRICE": "3.00"
+        "PRICE": "4.00"
       },
       "LAKHMAJOON": {
         "NAME": "Λαχματζούν",
@@ -238,52 +238,52 @@
       "KOTLET": {
         "NAME": "Κοτλέτ",
         "DESCRIPTION": "Παραδοσιακά Περσικά μπιφτέκια με κιμά ( μοσχάρι ) , πατάτα",
-        "PRICE": "6.50"
+        "PRICE": "7.50"
       },
       "KOUFTEH_BERENJI": {
         "NAME": "Κουφτέ μπερεντζί",
         "DESCRIPTION": "Κεφτέδες (κιμά μοσχάρυύ, φάβα, ρύζ, μυρωδικά",
-        "PRICE": "6.50"
+        "PRICE": "7.50"
       },
       "MIRZA_GHASEMI": {
         "NAME": "Μιρζά γασεμί",
         "DESCRIPTION": "Αυγό , καπνιστή μελιτζάνα, ντομάτα , σκόρδο",
-        "PRICE": "7.00"
+        "PRICE": "8.00"
       },
       "KASHKE_BADEMJAN": {
         "NAME": "Κασκανεμτζούν",
         "DESCRIPTION": "Τηγανιτή μελιτζάνα με καρύδι",
-        "PRICE": "7.00"
+        "PRICE": "8.00"
       },
       "MASTO_KHIAR": {
         "NAME": "Μαστοχιάρ",
         "DESCRIPTION": "Γιαούρτι με αγγούρι , μέντα Κασκανεμτζούν Τηγανιτή μελιτζάνα με καρύδι",
-        "PRICE": "4.00"
+        "PRICE": "5.00"
       },
       "NAZKHATOON": {
         "NAME": "Ναζχατούν",
         "DESCRIPTION": "Γιαούρτι , καπνιστή μελιτζάνα, σκόρδο",
-        "PRICE": "4.00"
+        "PRICE": "5.00"
       },
       "NARGESI": {
         "NAME": "Ναργκεσί",
         "DESCRIPTION": "Αυγό, σπανάκι, σκόρδο",
-        "PRICE": "4.00"
+        "PRICE": "5.00"
       },
       "BOURANI": {
         "NAME": "Μπουρανί",
         "DESCRIPTION": "Γιαούρτι με σπανάκι , σκόρδο",
-        "PRICE": "4.00"
+        "PRICE": "5.00"
       },
       "MAST_MOUSIR": {
         "NAME": "Μαστμουσίρ",
         "DESCRIPTION": "Γιαούρτι με άοσμο σκόρδο",
-        "PRICE": "4.00"
+        "PRICE": "5.00"
       },
       "OLIVIEH": {
         "NAME": "Ολιβιέ",
         "DESCRIPTION": "Πατάτα, αυγό, κοτόπουλο, πίκλες, μαγιονέζα",
-        "PRICE": "4.00"
+        "PRICE": "5.00"
       }
     }
   }

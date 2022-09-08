@@ -4,7 +4,7 @@ import {
   CardContent,
   CardMedia,
   Container,
-  Divider,
+  // Divider,
   Grid,
   Typography,
 } from "@mui/material";
@@ -107,7 +107,7 @@ function Menu(): JSX.Element {
                           <CardMedia image={men.pic} component="img" />
                           <CardContent>
                             <Grid container>
-                              <Grid item sm={11}>
+                              <Grid item sm={10} xs={10}>
                                 <Typography
                                   component="h6"
                                   variant="h6"
@@ -150,6 +150,7 @@ function Menu(): JSX.Element {
                               <Grid
                                 item
                                 sm={1}
+                                xs={1}
                                 sx={{
                                   display: "flex",
                                   alignItems: "center",
