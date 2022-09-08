@@ -12,6 +12,7 @@ import menu from "../database/menu";
 import Navbar from "./components/Navbar";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
+import { useRouter } from "next/router";
 
 export async function getStaticProps({ locale }) {
   return {
@@ -24,6 +25,8 @@ export async function getStaticProps({ locale }) {
 
 function Menu(): JSX.Element {
   const { t, i18n } = useTranslation();
+
+  const { locale } = useRouter();
 
   return (
     <>
@@ -45,12 +48,41 @@ function Menu(): JSX.Element {
                         fontWeight: "bold",
                         fontSize: "1.75em",
                       }}
+                      dir={locale === "fa" ? "rtl" : "ltr"}
                     >
-                      {m === "MAIN_COURSE"
-                        ? "MAIN COURSE"
+                      {locale === "en"
+                        ? m === "MAIN_COURSE"
+                          ? "MAIN COURSE"
+                          : m === "COFFEE_TEA"
+                          ? "COFFEE / TEA"
+                          : m
+                        : locale === "el"
+                        ? m === "MAIN_COURSE"
+                          ? "Κύριο πιάτο"
+                          : m === "COFFEE_TEA"
+                          ? "ΚΑΦΕΣ / ΤΣΑΙ"
+                          : m === "SALADS"
+                          ? "Σαλάτες"
+                          : m === "APPETIZERS"
+                          ? "ΟΡΕΚΤΙΚΑ"
+                          : m === "BEVERAGES"
+                          ? "Ποτά"
+                          : m
+                        : m === "MAIN_COURSE"
+                        ? "منو اصلی"
                         : m === "COFFEE_TEA"
-                        ? "COFFEE TEA"
-                        : m}
+                        ? "چای / قهوه"
+                        : m === "SALADS"
+                        ? "سالاد ها"
+                        : m === "APPETIZERS"
+                        ? "پیش غذا"
+                        : m === "BEVERAGES"
+                        ? "نوشیدنی ها"
+                        : m === "WINE"
+                        ? "شراب"
+                        : m === "DESSERTS"
+                        ? "دسرها"
+                        : ""}
                     </Typography>
                     {mm[m].map((men) => (
                       <>
@@ -61,6 +93,7 @@ function Menu(): JSX.Element {
                             backgroundColor: "#ebe3d9",
                           }}
                           key={men.name}
+                          dir={locale === "fa" ? "rtl" : "ltr"}
                         >
                           <CardMedia image={men.pic} component="img" />
                           <CardContent>
