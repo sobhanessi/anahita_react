@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import {
   Card,
   CardContent,
@@ -25,17 +25,11 @@ export async function getStaticProps({ locale }) {
 function Menu(): JSX.Element {
   const { t, i18n } = useTranslation();
 
-  const [language, setLanguage] = React.useState("en");
-
-  useEffect(() => {
-    i18n.changeLanguage(language).then((t) => t("fa"));
-  }, [language]);
-
-  console.log(language);
-
   return (
     <>
-      <Navbar language={language} setLanguage={setLanguage} />
+      <Navbar
+      // language={language} setLanguage={setLanguage}
+      />
       <Container>
         <Grid container justifyContent={"center"}>
           {menu.map((mm) => (

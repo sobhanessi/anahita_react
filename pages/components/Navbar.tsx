@@ -24,14 +24,12 @@ import {
   NAVBAR_ICON_BUTTON_DISPLAY,
 } from "../../public/theme/theme";
 import List from "@mui/material/List";
-// import ListItem from "@mui/material/ListItem";
-// import ListItemButton from "@mui/material/ListItemButton";
-// import ListItemText from "@mui/material/ListItemText";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import PhoneIcon from "@mui/icons-material/Phone";
 import { styled, useTheme } from "@mui/material/styles";
 import { US } from "country-flag-icons/react/3x2";
+import { useRouter } from "next/router";
 
 const drawerWidth = 240;
 
@@ -44,8 +42,7 @@ const titles = [
     languages: [
       { header: "ENGLISH", icon: <US />, code: "en" },
       { header: "فارسی", icon: "", code: "fa" },
-      { header: "عربی", icon: "", code: "ar" },
-      //   { header: "ΕΛΛΗΝΙΚΑ", icon: "" },
+      // { header: "عربی", icon: "", code: "ar" },
     ],
   },
 ];
@@ -99,9 +96,12 @@ const DrawerHeader = styled("div")(({ theme }) => ({
   justifyContent: "flex-end",
 }));
 
-export default function Navbar({ language, setLanguage }: any): JSX.Element {
+export default function Navbar(): JSX.Element {
   const theme = useTheme();
   const [open, setOpen] = React.useState(false);
+
+  const { locale: language } = useRouter();
+  const router = useRouter();
 
   const handleDrawerOpen = () => {
     setOpen(true);
@@ -112,7 +112,20 @@ export default function Navbar({ language, setLanguage }: any): JSX.Element {
   };
 
   const handleLanguage = (event: SelectChangeEvent) => {
-    return setLanguage(event.target.value);
+    switch (event.target.value) {
+      case "el":
+        router.push("/menu", "/menu", { locale: "el" });
+        break;
+      case "fa":
+        router.push("/menu", "/menu", { locale: "fa" });
+        break;
+      case "en":
+        router.push("/menu", "/menu", { locale: "en" });
+        break;
+      default:
+        router.push("/menu", "/menu", { locale: "en" });
+        break;
+    }
   };
   return (
     <Box sx={{ display: "flex", mb: 10 }}>
@@ -179,7 +192,7 @@ export default function Navbar({ language, setLanguage }: any): JSX.Element {
                       onChange={handleLanguage}
                       displayEmpty
                     >
-                      <MenuItem value="gr" key="gr">
+                      <MenuItem value="el" key="el">
                         <em>ΕΛΛΗΝΙΚΑ</em>
                       </MenuItem>
                       {title?.languages?.map((l) => (
@@ -275,7 +288,7 @@ export default function Navbar({ language, setLanguage }: any): JSX.Element {
                     onChange={handleLanguage}
                     displayEmpty
                   >
-                    <MenuItem value="gr" key="gr">
+                    <MenuItem value="el" key="el">
                       <em>ΕΛΛΗΝΙΚΑ</em>
                     </MenuItem>
                     {title?.languages?.map((l) => (
