@@ -1,30 +1,39 @@
 {
   "MENU": {
     "DESSERTS": {
-      "PERSIAN_ICE_CREAM": { "NAME": "Persian Ice Cream", "PRICE": "3.50" },
+      "PERSIAN_ICE_CREAM": {
+        "NAME": "ΓΛΥΚΑ Περσικό παγωτό (σαφράν, φιστίκι Αrγίνης , ροδόνερο)",
+        "PRICE": "3.50"
+      },
       "EKMEK_WITH_ICE_CREAM": {
-        "NAME": "Ekmek With Ice Cream",
+        "NAME": "Εκμέκ παγωτό",
         "PRICE": "5.00"
       },
       "WALNUT_PIE_WITH_ICE_CREAM": {
-        "NAME": "Walnut Pie With Ice Cream",
+        "NAME": "Καρυδόπιτα παγωτό",
         "PRICE": "5.00"
       },
       "RAVANI_WITH_ICE_CREAM": {
-        "NAME": "Ravani With Ice Cream",
+        "NAME": "Ραβανί παγωτό",
         "PRICE": "5.00"
       },
-      "FALOUDE": { "NAME": "Faloude", "PRICE": "4.00" }
+      "FALOUDE": { "NAME": "Φαλουντέ", "PRICE": "4.00" }
     },
     "COFFEE_TEA": {
-      "PERSIAN_TEA": { "NAME": "Persian Tea", "PRICE": "1.50" },
-      "GREEK_COFFEE": { "NAME": "Greek Coffee", "PRICE": "2.00" },
-      "FILTER_COFFEE": { "NAME": "Filter Coffee", "PRICE": "2.50" },
-      "ESPRESSO": { "NAME": "Espresso", "PRICE": "2.50" }
+      "PERSIAN_TEA": { "NAME": "Περσικό τσάι", "PRICE": "1.50" },
+      "GREEK_COFFEE": { "NAME": "Ελληνικός", "PRICE": "2.00" },
+      "FILTER_COFFEE": { "NAME": "Φίλ", "PRICE": "2.50" },
+      "ESPRESSO": { "NAME": "Εσπρέσο", "PRICE": "2.50" }
     },
     "WINE": {
-      "RED_WINE": { "NAME": "Red Wine 500ml", "PRICE": "5.00" },
-      "WHITE_WINE": { "NAME": "White Wine 500ml", "PRICE": "5.00" }
+      "RED_WINE": {
+        "NAME": "Ερυθρό Νεμέας (Αγιωργίτικο ) 500ml",
+        "PRICE": "5.00"
+      },
+      "WHITE_WINE": {
+        "NAME": "Λευκό Νεμέας (Μοσχοφίλερο) 500ml",
+        "PRICE": "5.00"
+      }
     },
     "BEVERAGES": {
       "DOUGH": {
@@ -42,233 +51,233 @@
     },
     "SALADS": {
       "SALAD_ROQUEFORT": {
-        "NAME": "Salad With Roquefort Cheese",
-        "DESCRIPTION": "Lettuce - Tomato - Cucumber - Carrot - Pepper - Roquefort Sauce",
+        "NAME": "Σαλάτα ροκφόρ",
+        "DESCRIPTION": "Μαρούλι, ντομάτα , αγγούρι , καρότο, πιπεριά, σως ροκφρ",
         "PRICE": "8.00"
       },
       "GREEN_SALAD": {
-        "NAME": "Green Salad",
-        "DESCRIPTION": "Lettuce - Arugula - Tomato - Olives - Parmesan Cheese - Balsamic Vinegar - Olive Oil",
+        "NAME": "Πράσινη σαλάτα",
+        "DESCRIPTION": "Μαρούλι, ρόκα, ντομάτα, ελιές , παρμεζάνα, μπαλσάμικο",
         "PRICE": "8.00"
       },
 
       "SHIRAZI_SALAD": {
-        "NAME": "Shirazi Salad",
-        "DESCRIPTION": "Tomato - Cucumber - Onion - Lemon Juice - Olive Oil",
+        "NAME": "Σιραζί",
+        "DESCRIPTION": "Ψιλοκομμένη ντομάτα, αγγούρι , κρεμμύδι λεμόν, λάδι",
         "PRICE": "6.00"
       },
       "KARAFS_SALAD": {
-        "NAME": "Karafs Salad",
-        "DESCRIPTION": "Celery - Apple - Radish - Yogurt Sauce",
+        "NAME": "Σαλάτα κράφς",
+        "DESCRIPTION": "Σέλερι, μήλο, ραπανάκι, σως γιαουρτιού",
         "PRICE": "6.00"
       },
       "PERSIAN_SALAD": {
-        "NAME": "Persian Salad",
-        "DESCRIPTION": "Lettuce - Tomato - Cucumber - Carrot - Yogurt Sauce",
+        "NAME": "Περσική σαλάτα",
+        "DESCRIPTION": "Μαρούλι, ντομάτα, αγγούρι, καρότο, σως γιαουρτιού",
         "PRICE": "7.00"
       },
       "ANAHITA_SALAD": {
-        "NAME": "Anahita Salad",
-        "DESCRIPTION": "White Cabbage - Red Cabbage - Carrot - Corn - Olive Oil - Vinegar",
+        "NAME": "Αναχίτα",
+        "DESCRIPTION": "Λάχανο κόκκινο και λευκό , καρότο, καλαμπ λάδι, ξύδι",
         "PRICE": "7.00"
       }
     },
     "MAIN_COURSE": {
       "PERSIAN_RICE": {
-        "NAME": "Persian Rice",
-        "DESCRIPTION": "Rice with Saffron",
+        "NAME": "Περσικό ρύζι",
+        "DESCRIPTION": "Ρύζι, σαφράν",
         "PRICE": "4.00"
       },
       "BIFTEKI_SPECIAL_WITH_CHEESE_FILLING": {
-        "NAME": "Bifteki Special With Cheese Filling",
-        "DESCRIPTION": "Lamb Mincemeat - Cheese - Tomatoes - Potatoes",
+        "NAME": "Μπιφτέκι Special με γέμιση τυρί",
+        "DESCRIPTION": "Μπιφτέκι από αρνίσιο κιμά , ντομάτα , πατάτες",
         "PRICE": "10.00"
       },
       "KHORESHTE_FESENJAN": {
-        "NAME": "Khoreshte Fesenjan",
-        "DESCRIPTION": "Rice with Saffron - Sauce with Pomegranate Paste - Walnuts - Veal - Meatballs",
+        "NAME": "Χορέστε φεσεντζούν",
+        "DESCRIPTION": "Ρύζι με σαφράν και σάλτσα με πελτέροδιού , καρύδι , κεφτεδάκια",
         "PRICE": "13.00"
       },
       "KHORESHTE_GHORME_SABZI": {
-        "NAME": "Khoreshte Ghorme Sabzi",
-        "DESRIPTION": "Rice with Saffron - Green Sauce with Herbs - Veal - Kidney Beans",
+        "NAME": "Χορέστε γκορμέ σαμπζί",
+        "DESRIPTION": "Ρύζι με σαφράν και πράσινη σάλτσα με μυρωδικά μοσχαρίσιο κρέας, λεμόνι",
         "PRICE": "12.00"
       },
       "KHORESHTE_ESFENAJ": {
-        "NAME": "Khoreshte Esfenaj",
-        "DESCRIPTION": "Rice with Saffron - Green Sauce with Spinach - Chicken",
+        "NAME": "Χορέστε εσφενάτζ",
+        "DESCRIPTION": "Ρύζι με σαφράν και πράσινη σάλτσα με σπανάκι, κοτόπουλο",
         "PRICE": "12.00"
       },
       "KHORESHTE_GHEIME": {
-        "NAME": "Khoreshte Gheime",
-        "DESCRIPTION": "Rice with Saffron - Tomato Sauce with Veal - Yellow Split Peas - Lemon",
+        "NAME": "Χορέστε γκεϊμέ",
+        "DESCRIPTION": "Ρύζι με σαφράν και κόκκινη σάλτσα με φάβα, μοσχαρίσιο κρέας, λεμόνι",
         "PRICE": "12.00"
       },
       "BAGHALI_POLO": {
-        "NAME": "Baghali Polo",
-        "DESCRIPTION": "Rice with Saffron - Dill - Broad Beans - Chicken or Lamb",
+        "NAME": "Μπαγαλί πολό",
+        "DESCRIPTION": "Ρύζι, άνηθος, κουκιά, κοτόπουλο ή αρνί",
         "PRICE": "12.00"
       },
       "ZERESHK_POLO_OR_SHIRIN_POLO": {
-        "NAME": "Zereshk Polo Or Shirin Polo",
-        "DESCRIPTION": "Without Chicken",
+        "NAME": "Ζερέσκ πολό ή Σιρίν πολό Χωρίς κοτόπουλο",
+        "DESCRIPTION": "Χωρίς κοτόπουλο",
         "PRICE": "6.50"
       },
       "SHIRIN_POLO": {
-        "NAME": "Shirin Polo",
-        "DESCRIPTION": "Rice - Saffron - Orange Peel - Almonds - Pistachios - Carrot - Chicken",
+        "NAME": "Σιρίν πολό",
+        "DESCRIPTION": "Ρύζι, φλούδα πορτοκαλιού, αμύγδαλο, φιστίκι Αιγγίνης, καρότο,κοτόπουλο",
         "PRICE": "12.00"
       },
       "ZERESHK_POLO": {
-        "NAME": "Zereshk Polo",
-        "DESCRIPTION": "Rice with Saffron - Redcurrants - Pistachios - Almonds - Chicken",
+        "NAME": "Ζερέσκ πολό",
+        "DESCRIPTION": "Ρύζι, φραγκοστάφυλο, φιστίκι Αιγίνης, αμύγδαλο, κοτόπουλο",
         "PRICE": "12.00"
       },
       "SUPER_DISHES": {
-        "NAME": "Super Dishes",
-        "DESCRIPTION": "Different Kebabs and Rice for 6 People",
+        "NAME": "Δίσκος κεμπάπ special",
+        "DESCRIPTION": "Διάφορα κεμπάπ και ρύζια για 6 ατ.",
         "PRICE": "55.00"
       },
       "KEBAB_MIX_FOR_4": {
-        "NAME": "Kebab Mix For 4",
-        "DESCRIPTION": "Two Minced Lamb - One Skewered Chicken - One Fillet of Beef - One Skewered Lamb Kebabs",
+        "NAME": "Δίσκος κεμπάπ για 4 ατ.",
+        "DESCRIPTION": "2 κουμπιντέ - 1 σουβλάκι κοτόπουλο - 1 μπάργκ - 1 τσεντζέ",
         "PRICE": "34.00"
       },
       "KEBAB_MIX_FOR_2": {
-        "NAME": "Kebab Mix For 2",
-        "DESCRIPTION": "One Minced Lamb - One Skewered chicken - One Fillet Beef Kebab",
+        "NAME": "Δίσκος κεμπάπ για 2 ατ.",
+        "DESCRIPTION": "κουμπιντέ , 1 μπάργκ, 1 σουβλάκι κοτόπουλο",
         "PRICE": "22.00"
       },
       "SOLTANI_WITH_RICE": {
-        "NAME": "Soltani With Rice",
-        "DESCRIPTION": "One Koubideh - One Barg - Roasted Tomatoes - Rice with Saffron",
+        "NAME": "Σολτάνι",
+        "DESCRIPTION": "Φιλέτο μοσχι και κεμπάπ από αρνίσιο κιμά, ρύζι ή πατάτες . ντομάτα ψητή",
         "PRICE": "15.00"
       },
       "SOLTANI_WITHOUT_RICE": {
-        "NAME": "Soltani",
-        "DESCRIPTION": "One Koubideh - One Barg - Roasted Tomatoes - Pitta Bread",
+        "NAME": "Σολτάνι",
+        "DESCRIPTION": "Φιλέτο μοσχάρι και κεμπάπ από αρνίσιο κιμά, πίτα, ντομάτα ψητή",
         "PRICE": "13.00"
       },
       "KEBAB_CHENJEH": {
-        "NAME": "Kebab Chenjeh",
-        "DESCRIPTION": "Skewered Lamb - Roasted Tomatoes - Rice with Saffron",
+        "NAME": "Κεμπάπ τσεντζέ",
+        "DESCRIPTION": "Κομμάτια αρνίσιο , ρύζιή πατάτες , ντομάτα ψητή",
         "PRICE": "12.00"
       },
       "CHELO_KEBAB": {
-        "NAME": "Chelo Kebab",
-        "DESCRIPTION": "Two Pieces of Minced Lamb - Rice with Saffron - Roasted Tomatoes",
+        "NAME": "Τσελό κεμπάπ",
+        "DESCRIPTION": "Κεμπάπ από αρνίσιο κιμά, ρύζι ή πατάτες , ντομάτα ψητή",
         "PRICE": "12.00"
       },
       "KEBAB_KOUBIDEH": {
-        "NAME": "Kebab Koubideh",
-        "DESCRIPTION": "Two Pieces of Minced Lamb - Roasted Tomatoes - Pitta Bread",
+        "NAME": "Κεμπάπ κουμπιντέ",
+        "DESCRIPTION": "Κεμπάπ από αρνίσιο κιμά, πίτα, ντομάτα ψητή",
         "PRICE": "10.00"
       },
       "KEBAB_BARG": {
-        "NAME": "Kebab Barg",
-        "DESCRIPTION": "Beef Fillet - Roasted Tomatoes - Rice with Saffron",
+        "NAME": "Κεμπάπ μπάργκ",
+        "DESCRIPTION": "Φιλέτο μοσχάρι , ρύζι ή πατάτες, ντομάτα ψητή",
         "PRICE": "12.00"
       },
       "JOUJE_KEBAB": {
-        "NAME": "Jouje Kebab",
-        "DESCRIPTION": "Skewered Chicken - Roasted Tomatoes - Rice with Saffron",
+        "NAME": "Τζουτζέ κεμπάπ",
+        "DESCRIPTION": "Σουβλάκι κοτόπουλο , ρύζ, ντομάτα ψητή",
         "PRICE": "10.00"
       }
     },
     "APPETIZERS": {
       "HUMMUS": {
-        "NAME": "Hummus",
-        "DESCRIPTION": "Chickpeas - Garlic - Tahini",
+        "NAME": "Χουμούς",
+        "DESCRIPTION": "",
         "PRICE": "4.00"
       },
       "SOSIS_BANDARI": {
-        "NAME": "Sosis Bandari",
-        "DESCRIPTION": "Hot Dog - Onion - Hot Pepper - Red Sauce",
+        "NAME": "Σοσίς μπανδαρί",
+        "DESCRIPTION": "Λουκάνικο, κρεμμύδι , καυτερή πιπεριά , κόκκινη σάλτσα",
         "PRICE": "4.00"
       },
       "CHEESE_CROQUETTES_WITH_RED_SAUCE": {
-        "NAME": "Cheese Croquettes With Red Sauce",
+        "NAME": "Τυροκροκέτες με κόκκινο σός",
         "DESCRIPTION": "",
         "PRICE": "4.00"
       },
       "SAGANAKI_CHEESE_WITH_RED_SAUCE": {
-        "NAME": "Saganaki Cheese With Red Sauce",
+        "NAME": "Τυρί στο φούρνο με κόκκινο σός",
         "DESCRIPTION": "",
         "PRICE": "4.00"
       },
       "JO_SOUP": {
-        "NAME": "Jo Soup",
-        "DESCRIPTION": "Barley - Carrot and Cream Soup",
+        "NAME": "Σούπα Τζο",
+        "DESCRIPTION": "Σούπα με κριθάρι , καρότo, κρέμα γάλακτος",
         "PRICE": "5.00"
       },
       "ASH_RESHTEH": {
-        "NAME": "Ash Reshteh",
-        "DESCRIPTION": "Persian Greens - Bean and Noodle Soup",
+        "NAME": "Ας Ρεστε",
+        "DESCRIPTION": "Σούπα με όσπρια και σπανάκι, φιδές ρυζιού",
         "PRICE": "5.00"
       },
       "PERSIAN_BREAD": {
-        "NAME": "Persian Bread",
+        "NAME": "Περσικό ψωμί",
         "DESCRIPTION": "",
         "PRICE": "1.50"
       },
       "FRIED_POTATOES_WITH_CHEESE": {
-        "NAME": "Fried Potatoes With Cheese",
+        "NAME": "Πατάτες τηγανιτές με τυρί",
         "DESCRIPTION": "",
         "PRICE": "3.50"
       },
       "FRIED_POTATOES": {
-        "NAME": "Fried Potatoes",
+        "NAME": "Πατάτες τηγανιτές",
         "DESCRIPTION": "",
         "PRICE": "3.00"
       },
       "LAKHMAJOON": {
-        "NAME": "Lakhmajoon",
-        "DESCRIPTION": "4 Pieces Of Pitta In Wrapped- Minced Veal - Onion - Hot Pepper",
+        "NAME": "Λαχματζούν",
+        "DESCRIPTION": "4πίτες με κιμά (μοσχάρι) , κρεμμύδι καυτερή πιπεριά",
         "PRICE": "6.50"
       },
       "KOTLET": {
-        "NAME": "Kotlet",
-        "DESCRIPTION": "Traditional Persian Burgers - Herbs - Potatoes",
+        "NAME": "Κοτλέτ",
+        "DESCRIPTION": "Παραδοσιακά Περσικά μπιφτέκια με κιμά ( μοσχάρι ) , πατάτα",
         "PRICE": "6.50"
       },
       "KOUFTEH_BERENJI": {
-        "NAME": "Koufteh Berenji",
-        "DESCRIPTION": "Minced Veal - Herbs - Yellow Split Peas - Rice - Tomato Sauce",
+        "NAME": "Κουφτέ μπερεντζί",
+        "DESCRIPTION": "Κεφτέδες (κιμά μοσχάρυύ, φάβα, ρύζ, μυρωδικά",
         "PRICE": "6.50"
       },
       "MIRZA_GHASEMI": {
-        "NAME": "Mirza Ghasemi",
-        "DESCRIPTION": "Eggs - Smoked Eggplant - Tomato - Garlic",
+        "NAME": "Μιρζά γασεμί",
+        "DESCRIPTION": "Αυγό , καπνιστή μελιτζάνα, ντομάτα , σκόρδο",
         "PRICE": "7.00"
       },
       "KASHKE_BADEMJAN": {
-        "NAME": "Kashke Bademjan",
-        "DESCRIPTION": "Fried Eggplants - Walnuts",
+        "NAME": "Κασκανεμτζούν",
+        "DESCRIPTION": "Τηγανιτή μελιτζάνα με καρύδι",
         "PRICE": "7.00"
       },
       "MASTO_KHIAR": {
-        "NAME": "Masto Khiar",
-        "DESCRIPTION": "Yogurt - Cucumber - Mint",
+        "NAME": "Μαστοχιάρ",
+        "DESCRIPTION": "Γιαούρτι με αγγούρι , μέντα Κασκανεμτζούν Τηγανιτή μελιτζάνα με καρύδι",
         "PRICE": "4.00"
       },
       "NAZKHATOON": {
-        "NAME": "NAZKHATOON",
-        "DESCRIPTION": "Yogurt - Smoked Eggplant - Garlic",
+        "NAME": "Ναζχατούν",
+        "DESCRIPTION": "Γιαούρτι , καπνιστή μελιτζάνα, σκόρδο",
         "PRICE": "4.00"
       },
       "NARGESI": {
-        "NAME": "Nargesi",
-        "DESCRIPTION": "Spinach - Eggs - Garlic",
+        "NAME": "Ναργκεσί",
+        "DESCRIPTION": "Αυγό, σπανάκι, σκόρδο",
         "PRICE": "4.00"
       },
       "BOURANI": {
-        "NAME": "Bourani",
-        "DESCRIPTION": "Yogurt - Spinach - Garlic",
+        "NAME": "Μπουρανί",
+        "DESCRIPTION": "Γιαούρτι με σπανάκι , σκόρδο",
         "PRICE": "4.00"
       },
       "MAST_MOUSIR": {
-        "NAME": "Mast Mousir",
-        "DESCRIPTION": "Yogurt - Odorless - Garlic",
+        "NAME": "Μαστμουσίρ",
+        "DESCRIPTION": "Γιαούρτι με άοσμο σκόρδο",
         "PRICE": "4.00"
       },
       "OLIVIEH": {
