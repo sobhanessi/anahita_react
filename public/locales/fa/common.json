@@ -4,7 +4,7 @@
       "PERSIAN_ICE_CREAM": { "NAME": "بستنی زعفرانی ایرانی", "PRICE": "۳.۵۰" },
       "EKMEK_WITH_ICE_CREAM": {
         "NAME": "اکمک با بستنی",
-        "PRICE": "5.00"
+        "PRICE": "۵.۰۰"
       },
       "WALNUT_PIE_WITH_ICE_CREAM": {
         "NAME": "پای گردو با بستنی",
@@ -28,247 +28,253 @@
     },
     "BEVERAGES": {
       "DOUGH": {
-        "NAME": "Dough (Yogurt - Soda - Mint) 500ml",
-        "PRICE": "3.00"
+        "NAME": "دوغ ۵۰۰ میلی لیتر",
+        "PRICE": "۳.۰۰"
       },
-      "WATER": { "NAME": "Water 1L", "PRICE": "۲.۰۰" },
-      "SPARKLING_WATER": { "NAME": "Sparkling Water 250ml", "PRICE": "۱.۵۰" },
-      "SODA": { "NAME": "Soda 250ml", "PRICE": "۱.۵۰" },
-      "FANTA": { "NAME": "Fanta 250ml", "PRICE": "۱.۵۰" },
-      "SPRITE": { "NAME": "Sprite 250ml", "PRICE": "۱.۵۰" },
-      "COCA_COLA_ZER0": { "NAME": "Coca Cola Zero 250ml", "PRICE": "۱.۵۰" },
-      "COCA_COLA_LIGHT": { "NAME": "Coca Cola Light 250ml", "PRICE": "۱.۵۰" },
-      "COCA_COLA": { "NAME": "Coca Cola 250ml", "PRICE": "۱.۵۰" }
+      "WATER": { "NAME": "آب ۱ لیتر", "PRICE": "۲.۰۰" },
+      "SPARKLING_WATER": { "NAME": "آب گازدار ۲۵۰ میلی لیتر", "PRICE": "۱.۵۰" },
+      "SODA": { "NAME": "سودا ۲۵۰ میلی لیتر", "PRICE": "۱.۵۰" },
+      "FANTA": { "NAME": "فانتا ۲۵۰ میلی لیتر", "PRICE": "۱.۵۰" },
+      "SPRITE": { "NAME": "اسپرایت ۲۵۰ میلی لیتر", "PRICE": "۱.۵۰" },
+      "COCA_COLA_ZER0": {
+        "NAME": "کوکا کوکا زیرو ۲۵۰ میلی لیتر",
+        "PRICE": "۱.۵۰"
+      },
+      "COCA_COLA_LIGHT": {
+        "NAME": "کوکا کولا لایت ۲۵۰ میلی لیتر",
+        "PRICE": "۱.۵۰"
+      },
+      "COCA_COLA": { "NAME": "کوکا کولا ۲۵۰ میلی لیتر", "PRICE": "۱.۵۰" }
     },
     "SALADS": {
       "SALAD_ROQUEFORT": {
-        "NAME": "Salad With Roquefort Cheese",
-        "DESCRIPTION": "Lettuce - Tomato - Cucumber - Carrot - Pepper - Roquefort Sauce",
-        "PRICE": "8.00"
+        "NAME": "سالاد همراه با پنیر روکفورت",
+        "DESCRIPTION": "",
+        "PRICE": "۸.۰۰"
       },
       "GREEN_SALAD": {
-        "NAME": "Green Salad",
-        "DESCRIPTION": "Lettuce - Arugula - Tomato - Olives - Parmesan Cheese - Balsamic Vinegar - Olive Oil",
-        "PRICE": "8.00"
+        "NAME": "سالاد سبز",
+        "DESCRIPTION": "",
+        "PRICE": "۸.۰۰"
       },
 
       "SHIRAZI_SALAD": {
-        "NAME": "Shirazi Salad",
-        "DESCRIPTION": "Tomato - Cucumber - Onion - Lemon Juice - Olive Oil",
-        "PRICE": "6.00"
+        "NAME": "سالاد شیرازی",
+        "DESCRIPTION": "",
+        "PRICE": "۶.۰۰"
       },
       "KARAFS_SALAD": {
-        "NAME": "Karafs Salad",
-        "DESCRIPTION": "Celery - Apple - Radish - Yogurt Sauce",
-        "PRICE": "6.00"
+        "NAME": "سالاد کرفس",
+        "DESCRIPTION": "",
+        "PRICE": "۶.۰۰"
       },
       "PERSIAN_SALAD": {
-        "NAME": "Persian Salad",
-        "DESCRIPTION": "Lettuce - Tomato - Cucumber - Carrot - Yogurt Sauce",
-        "PRICE": "7.00"
+        "NAME": "سالاد ایرانی",
+        "DESCRIPTION": "",
+        "PRICE": "۷.۰۰"
       },
       "ANAHITA_SALAD": {
-        "NAME": "Anahita Salad",
-        "DESCRIPTION": "White Cabbage - Red Cabbage - Carrot - Corn - Olive Oil - Vinegar",
-        "PRICE": "7.00"
+        "NAME": "سالاد آناهیتا",
+        "DESCRIPTION": "",
+        "PRICE": "۷.۰۰"
       }
     },
     "MAIN_COURSE": {
       "PERSIAN_RICE": {
-        "NAME": "Persian Rice",
-        "DESCRIPTION": "Rice with Saffron",
+        "NAME": "پلو ایرانی",
+        "DESCRIPTION": "",
         "PRICE": "۴.۰۰"
       },
       "BIFTEKI_SPECIAL_WITH_CHEESE_FILLING": {
-        "NAME": "Bifteki Special With Cheese Filling",
-        "DESCRIPTION": "Lamb Mincemeat - Cheese - Tomatoes - Potatoes",
-        "PRICE": "10.00"
+        "NAME": "بیفتک ویژه همراه با پنیر",
+        "DESCRIPTION": "",
+        "PRICE": "۱۰.۰۰"
       },
       "KHORESHTE_FESENJAN": {
-        "NAME": "Khoreshte Fesenjan",
-        "DESCRIPTION": "Rice with Saffron - Sauce with Pomegranate Paste - Walnuts - Veal - Meatballs",
-        "PRICE": "13.00"
+        "NAME": "خورشت فسنجان",
+        "DESCRIPTION": "",
+        "PRICE": "۱۳.۰۰"
       },
       "KHORESHTE_GHORME_SABZI": {
-        "NAME": "Khoreshte Ghorme Sabzi",
-        "DESRIPTION": "Rice with Saffron - Green Sauce with Herbs - Veal - Kidney Beans",
-        "PRICE": "12.00"
+        "NAME": "خورشت قورمه سبزی",
+        "DESRIPTION": "",
+        "PRICE": "۱۲.۰۰"
       },
       "KHORESHTE_ESFENAJ": {
-        "NAME": "Khoreshte Esfenaj",
-        "DESCRIPTION": "Rice with Saffron - Green Sauce with Spinach - Chicken",
-        "PRICE": "12.00"
+        "NAME": "خورشت اسفناج",
+        "DESCRIPTION": "",
+        "PRICE": "۱۲.۰۰"
       },
       "KHORESHTE_GHEIME": {
-        "NAME": "Khoreshte Gheime",
-        "DESCRIPTION": "Rice with Saffron - Tomato Sauce with Veal - Yellow Split Peas - Lemon",
-        "PRICE": "12.00"
+        "NAME": "خورشت قیمه",
+        "DESCRIPTION": "",
+        "PRICE": "۱۲.۰۰"
       },
       "BAGHALI_POLO": {
-        "NAME": "Baghali Polo",
-        "DESCRIPTION": "Rice with Saffron - Dill - Broad Beans - Chicken or Lamb",
-        "PRICE": "12.00"
+        "NAME": "باقالی پلو",
+        "DESCRIPTION": "",
+        "PRICE": "۱۲.۰۰"
       },
       "ZERESHK_POLO_OR_SHIRIN_POLO": {
-        "NAME": "Zereshk Polo Or Shirin Polo",
-        "DESCRIPTION": "Without Chicken",
-        "PRICE": "6.50"
+        "NAME": "زرشک پلو یا شیرین پلو بدون مرغ",
+        "DESCRIPTION": "",
+        "PRICE": "۶.۵۰"
       },
       "SHIRIN_POLO": {
-        "NAME": "Shirin Polo",
-        "DESCRIPTION": "Rice - Saffron - Orange Peel - Almonds - Pistachios - Carrot - Chicken",
-        "PRICE": "12.00"
+        "NAME": "شیرین پلو",
+        "DESCRIPTION": "",
+        "PRICE": "۱۲.۰۰"
       },
       "ZERESHK_POLO": {
-        "NAME": "Zereshk Polo",
-        "DESCRIPTION": "Rice with Saffron - Redcurrants - Pistachios - Almonds - Chicken",
-        "PRICE": "12.00"
+        "NAME": "زرشک پلو",
+        "DESCRIPTION": "",
+        "PRICE": "۱۲.۰۰"
       },
       "SUPER_DISHES": {
-        "NAME": "Super Dishes",
-        "DESCRIPTION": "Different Kebabs and Rice for 6 People",
-        "PRICE": "55.00"
+        "NAME": "دیس اسپشیال برای شش نفر",
+        "DESCRIPTION": "",
+        "PRICE": "۵۵.۰۰"
       },
       "KEBAB_MIX_FOR_4": {
-        "NAME": "Kebab Mix For 4",
-        "DESCRIPTION": "Two Minced Lamb - One Skewered Chicken - One Fillet of Beef - One Skewered Lamb Kebabs",
-        "PRICE": "3۴.۰۰"
+        "NAME": "کباب میکس برای ۴ نفر",
+        "DESCRIPTION": "",
+        "PRICE": "۳۴.۰۰"
       },
       "KEBAB_MIX_FOR_2": {
-        "NAME": "Kebab Mix For 2",
-        "DESCRIPTION": "One Minced Lamb - One Skewered chicken - One Fillet Beef Kebab",
-        "PRICE": "22.00"
+        "NAME": "کباب میکس برای دو نفر",
+        "DESCRIPTION": "",
+        "PRICE": "۲۲.۰۰"
       },
       "SOLTANI_WITH_RICE": {
-        "NAME": "Soltani With Rice",
-        "DESCRIPTION": "One Koubideh - One Barg - Roasted Tomatoes - Rice with Saffron",
-        "PRICE": "15.00"
+        "NAME": "سلطانی با برنج",
+        "DESCRIPTION": "",
+        "PRICE": "۱۵.۰۰"
       },
       "SOLTANI_WITHOUT_RICE": {
-        "NAME": "Soltani",
-        "DESCRIPTION": "One Koubideh - One Barg - Roasted Tomatoes - Pitta Bread",
-        "PRICE": "13.00"
+        "NAME": "سلطانی",
+        "DESCRIPTION": "",
+        "PRICE": "۱۳.۰۰"
       },
       "KEBAB_CHENJEH": {
-        "NAME": "Kebab Chenjeh",
-        "DESCRIPTION": "Skewered Lamb - Roasted Tomatoes - Rice with Saffron",
-        "PRICE": "12.00"
+        "NAME": "کباب چنجه",
+        "DESCRIPTION": "",
+        "PRICE": "۱۲.۰۰"
       },
       "CHELO_KEBAB": {
-        "NAME": "Chelo Kebab",
-        "DESCRIPTION": "Two Pieces of Minced Lamb - Rice with Saffron - Roasted Tomatoes",
-        "PRICE": "12.00"
+        "NAME": "چلو کباب",
+        "DESCRIPTION": "",
+        "PRICE": "۱۲.۰۰"
       },
       "KEBAB_KOUBIDEH": {
-        "NAME": "Kebab Koubideh",
-        "DESCRIPTION": "Two Pieces of Minced Lamb - Roasted Tomatoes - Pitta Bread",
-        "PRICE": "10.00"
+        "NAME": "کباب کوبیده",
+        "DESCRIPTION": "",
+        "PRICE": "۱۰.۰۰"
       },
       "KEBAB_BARG": {
-        "NAME": "Kebab Barg",
-        "DESCRIPTION": "Beef Fillet - Roasted Tomatoes - Rice with Saffron",
-        "PRICE": "12.00"
+        "NAME": "کباب برگ",
+        "DESCRIPTION": "",
+        "PRICE": "۱۲.۰۰"
       },
       "JOUJE_KEBAB": {
-        "NAME": "Jouje Kebab",
-        "DESCRIPTION": "Skewered Chicken - Roasted Tomatoes - Rice with Saffron",
-        "PRICE": "10.00"
+        "NAME": "جوجه کباب",
+        "DESCRIPTION": "",
+        "PRICE": "۱۰.۰۰"
       }
     },
     "APPETIZERS": {
       "HUMMUS": {
-        "NAME": "Hummus",
-        "DESCRIPTION": "Chickpeas - Garlic - Tahini",
+        "NAME": "خموس",
+        "DESCRIPTION": "",
         "PRICE": "۴.۰۰"
       },
       "SOSIS_BANDARI": {
-        "NAME": "Sosis Bandari",
-        "DESCRIPTION": "Hot Dog - Onion - Hot Pepper - Red Sauce",
+        "NAME": "سسیس بندری",
+        "DESCRIPTION": "",
         "PRICE": "۴.۰۰"
       },
       "CHEESE_CROQUETTES_WITH_RED_SAUCE": {
-        "NAME": "Cheese Croquettes With Red Sauce",
+        "NAME": "پنیر کوفته ای همراه با سس قرمز",
         "DESCRIPTION": "",
         "PRICE": "۴.۰۰"
       },
       "SAGANAKI_CHEESE_WITH_RED_SAUCE": {
-        "NAME": "Saganaki Cheese With Red Sauce",
+        "NAME": "پنیر ساقاناکی همراه با سس قرمز",
         "DESCRIPTION": "",
         "PRICE": "۴.۰۰"
       },
       "JO_SOUP": {
-        "NAME": "Jo Soup",
-        "DESCRIPTION": "Barley - Carrot and Cream Soup",
-        "PRICE": "5.00"
+        "NAME": "سوپ جو",
+        "DESCRIPTION": "",
+        "PRICE": "۵.۰۰"
       },
       "ASH_RESHTEH": {
-        "NAME": "Ash Reshteh",
-        "DESCRIPTION": "Persian Greens - Bean and Noodle Soup",
-        "PRICE": "5.00"
+        "NAME": "آش رشته",
+        "DESCRIPTION": "",
+        "PRICE": "۵.۰۰"
       },
       "PERSIAN_BREAD": {
-        "NAME": "Persian Bread",
+        "NAME": "نان ایرانی",
         "DESCRIPTION": "",
-        "PRICE": "1.50"
+        "PRICE": "۱.۵۰"
       },
       "FRIED_POTATOES_WITH_CHEESE": {
-        "NAME": "Fried Potatoes With Cheese",
+        "NAME": "سیب زمینی سرخ کرده با پنیر",
         "DESCRIPTION": "",
-        "PRICE": "3.50"
+        "PRICE": "۳.۵۰"
       },
       "FRIED_POTATOES": {
-        "NAME": "Fried Potatoes",
+        "NAME": "سیب زمینی سرخ کرده",
         "DESCRIPTION": "",
-        "PRICE": "3.00"
+        "PRICE": "۳.۰۰"
       },
       "LAKHMAJOON": {
-        "NAME": "Lakhmajoon",
-        "DESCRIPTION": "4 Pieces Of Pitta In Wrapped- Minced Veal - Onion - Hot Pepper",
-        "PRICE": "6.50"
+        "NAME": "لاخماجون",
+        "DESCRIPTION": "",
+        "PRICE": "۶.۵۰"
       },
       "KOTLET": {
-        "NAME": "Kotlet",
-        "DESCRIPTION": "Traditional Persian Burgers - Herbs - Potatoes",
-        "PRICE": "6.50"
+        "NAME": "کتلت",
+        "DESCRIPTION": "",
+        "PRICE": "۶.۵۰"
       },
       "KOUFTEH_BERENJI": {
-        "NAME": "Koufteh Berenji",
-        "DESCRIPTION": "Minced Veal - Herbs - Yellow Split Peas - Rice - Tomato Sauce",
-        "PRICE": "6.50"
+        "NAME": "کوفته برنجی",
+        "DESCRIPTION": "",
+        "PRICE": "۶.۵۰"
       },
       "MIRZA_GHASEMI": {
-        "NAME": "Mirza Ghasemi",
-        "DESCRIPTION": "Eggs - Smoked Eggplant - Tomato - Garlic",
-        "PRICE": "7.00"
+        "NAME": "میرزا قاسمی",
+        "DESCRIPTION": "",
+        "PRICE": "۷.۰۰"
       },
       "KASHKE_BADEMJAN": {
-        "NAME": "Kashke Bademjan",
-        "DESCRIPTION": "Fried Eggplants - Walnuts",
-        "PRICE": "7.00"
+        "NAME": "کشک بادمجان",
+        "DESCRIPTION": "",
+        "PRICE": "۷.۰۰"
       },
       "MASTO_KHIAR": {
-        "NAME": "Masto Khiar",
-        "DESCRIPTION": "Yogurt - Cucumber - Mint",
+        "NAME": "ماست و خیار",
+        "DESCRIPTION": "",
         "PRICE": "۴.۰۰"
       },
       "NAZKHATOON": {
-        "NAME": "NAZKHATOON",
-        "DESCRIPTION": "Yogurt - Smoked Eggplant - Garlic",
+        "NAME": "نازخاتون",
+        "DESCRIPTION": "",
         "PRICE": "۴.۰۰"
       },
       "NARGESI": {
-        "NAME": "Nargesi",
-        "DESCRIPTION": "Spinach - Eggs - Garlic",
+        "NAME": "نرگسی",
+        "DESCRIPTION": "",
         "PRICE": "۴.۰۰"
       },
       "BOURANI": {
-        "NAME": "Bourani",
-        "DESCRIPTION": "Yogurt - Spinach - Garlic",
+        "NAME": "بورانی",
+        "DESCRIPTION": "",
         "PRICE": "۴.۰۰"
       },
       "MAST_MOUSIR": {
-        "NAME": "Mast Mousir",
-        "DESCRIPTION": "Yogurt - Odorless - Garlic",
+        "NAME": "ماست موسیر",
+        "DESCRIPTION": "",
         "PRICE": "۴.۰۰"
       },
       "OLIVIEH": {
