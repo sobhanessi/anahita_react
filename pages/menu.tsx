@@ -4,16 +4,16 @@ import {
   CardContent,
   CardMedia,
   Container,
-  // Divider,
   Grid,
   Typography,
 } from "@mui/material";
 import menu from "../database/menu";
 import Navbar from "./components/Navbar";
+import { PERSIAN_FONT_FAMILY } from "../public/theme/theme";
+import persify from "persify";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 import { useRouter } from "next/router";
-import { PERSIAN_FONT_FAMILY } from "../public/theme/theme";
 
 export async function getStaticProps({ locale }) {
   return {
@@ -28,6 +28,8 @@ function Menu(): JSX.Element {
   const { t, i18n } = useTranslation();
 
   const { locale } = useRouter();
+
+  const parsePersianNumber = (str: string) => {};
 
   return (
     <>
@@ -154,6 +156,7 @@ function Menu(): JSX.Element {
                                 sx={{
                                   display: "flex",
                                   alignItems: "center",
+                                  justifyContent: "center",
                                 }}
                               >
                                 <Typography
@@ -170,16 +173,28 @@ function Menu(): JSX.Element {
                                   }}
                                   key={men.name + "3"}
                                 >
-                                  <span> € </span>
+                                  <span
+                                    style={{ paddingRight: 5, paddingLeft: 5 }}
+                                  >
+                                    {" "}
+                                    €{" "}
+                                  </span>
                                   <span>
-                                    {t(`MENU.${m}.${men.name}.PRICE`)}
+                                    {locale === "fa"
+                                      ? persify(
+                                          parseFloat(
+                                            t(`MENU.${m}.${men.name}.PRICE`)
+                                          )
+                                        )
+                                      : parseFloat(
+                                          t(`MENU.${m}.${men.name}.PRICE`)
+                                        )}
                                   </span>
                                 </Typography>
                               </Grid>
                             </Grid>
                           </CardContent>
                         </Card>
-                        {/* <Divider /> */}
                       </>
                     ))}
                   </Grid>

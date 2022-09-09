@@ -7023,6 +7023,11 @@ performance-now@^2.1.0:
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
   integrity sha512-7EAHlyLHI56VEIdK57uwHdHKIaAGbnXPiw0yWbarQZOKaKpvUIgW0jWRVLiatnM+XXlSwsanIBH/hzGMJulMow==
 
+persify@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/persify/-/persify-1.0.3.tgz#7c67ab30734d6d502729b362a7097f786f457c85"
+  integrity sha512-etQRIYswEyexd87ALHN7AIG5NMeieFxBk4LJmXfV4mEe41nlG8ZezcNnHRATVXYRQoJtVn270OhRE+nE9yWB9Q==
+
 picocolors@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/picocolors/-/picocolors-0.2.1.tgz#570670f793646851d1ba135996962abad587859f"

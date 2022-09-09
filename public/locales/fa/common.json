@@ -1,286 +1,286 @@
 {
   "MENU": {
     "DESSERTS": {
-      "PERSIAN_ICE_CREAM": { "NAME": "بستنی زعفرانی ایرانی", "PRICE": "۴.۵۰" },
+      "PERSIAN_ICE_CREAM": { "NAME": "بستنی زعفرانی ایرانی", "PRICE": "4.50" },
       "EKMEK_WITH_ICE_CREAM": {
         "NAME": "اکمک با بستنی",
-        "PRICE": "۶.۰۰"
+        "PRICE": "6.00"
       },
       "WALNUT_PIE_WITH_ICE_CREAM": {
         "NAME": "پای گردو با بستنی",
-        "PRICE": "۶.۰۰"
+        "PRICE": "6.00"
       },
       "RAVANI_WITH_ICE_CREAM": {
         "NAME": "راوانی با بستنی",
-        "PRICE": "۶.۰۰"
+        "PRICE": "6.00"
       },
-      "FALOUDE": { "NAME": "فالوده", "PRICE": "۵.۰۰" }
+      "FALOUDE": { "NAME": "فالوده", "PRICE": "5.00" }
     },
     "COFFEE_TEA": {
-      "PERSIAN_TEA": { "NAME": "چای ایرانی", "PRICE": "۲.۵۰" },
-      "GREEK_COFFEE": { "NAME": "قهوه یونانی", "PRICE": "۳.۰۰" },
-      "FILTER_COFFEE": { "NAME": "قهوه فیلتر شده", "PRICE": "۳.۵۰" },
-      "ESPRESSO": { "NAME": "اسپرسو", "PRICE": "۳.۵۰" }
+      "PERSIAN_TEA": { "NAME": "چای ایرانی", "PRICE": "2.50" },
+      "GREEK_COFFEE": { "NAME": "قهوه یونانی", "PRICE": "3.00" },
+      "FILTER_COFFEE": { "NAME": "قهوه فیلتر شده", "PRICE": "3.50" },
+      "ESPRESSO": { "NAME": "اسپرسو", "PRICE": "3.50" }
     },
     "WINE": {
-      "RED_WINE": { "NAME": "شراب قرمز ۵۰۰ میلی لیتر", "PRICE": "۶.۰۰" },
-      "WHITE_WINE": { "NAME": "شراب سفید ۵۰۰ میلی لیتر", "PRICE": "۶.۰۰" }
+      "RED_WINE": { "NAME": "شراب قرمز ۵۰۰ میلی لیتر", "PRICE": "6.00" },
+      "WHITE_WINE": { "NAME": "شراب سفید ۵۰۰ میلی لیتر", "PRICE": "6.00" }
     },
     "BEVERAGES": {
       "DOUGH": {
         "NAME": "دوغ ۵۰۰ میلی لیتر",
-        "PRICE": "۴.۰۰"
+        "PRICE": "4.00"
       },
-      "WATER": { "NAME": "آب ۱ لیتر", "PRICE": "۳.۰۰" },
-      "SPARKLING_WATER": { "NAME": "آب گازدار ۲۵۰ میلی لیتر", "PRICE": "۲.۵۰" },
-      "SODA": { "NAME": "سودا ۲۵۰ میلی لیتر", "PRICE": "۲.۵۰" },
-      "FANTA": { "NAME": "فانتا ۲۵۰ میلی لیتر", "PRICE": "۲.۵۰" },
-      "SPRITE": { "NAME": "اسپرایت ۲۵۰ میلی لیتر", "PRICE": "۲.۵۰" },
+      "WATER": { "NAME": "آب ۱ لیتر", "PRICE": "3.00" },
+      "SPARKLING_WATER": { "NAME": "آب گازدار ۲۵۰ میلی لیتر", "PRICE": "2.50" },
+      "SODA": { "NAME": "سودا ۲۵۰ میلی لیتر", "PRICE": "2.50" },
+      "FANTA": { "NAME": "فانتا ۲۵۰ میلی لیتر", "PRICE": "2.50" },
+      "SPRITE": { "NAME": "اسپرایت ۲۵۰ میلی لیتر", "PRICE": "2.50" },
       "COCA_COLA_ZER0": {
         "NAME": "کوکا کوکا زیرو ۲۵۰ میلی لیتر",
-        "PRICE": "۲.۵۰"
+        "PRICE": "2.50"
       },
       "COCA_COLA_LIGHT": {
         "NAME": "کوکا کولا لایت ۲۵۰ میلی لیتر",
-        "PRICE": "۲.۵۰"
+        "PRICE": "2.50"
       },
-      "COCA_COLA": { "NAME": "کوکا کولا ۲۵۰ میلی لیتر", "PRICE": "۲.۵۰" }
+      "COCA_COLA": { "NAME": "کوکا کولا ۲۵۰ میلی لیتر", "PRICE": "2.50" }
     },
     "SALADS": {
       "SALAD_ROQUEFORT": {
         "NAME": "سالاد همراه با پنیر روکفورت",
         "DESCRIPTION": "",
-        "PRICE": "۹.۰۰"
+        "PRICE": "9.00"
       },
       "GREEN_SALAD": {
         "NAME": "سالاد سبز",
         "DESCRIPTION": "",
-        "PRICE": "۹.۰۰"
+        "PRICE": "9.00"
       },
 
       "SHIRAZI_SALAD": {
         "NAME": "سالاد شیرازی",
         "DESCRIPTION": "",
-        "PRICE": "۷.۰۰"
+        "PRICE": "7.00"
       },
       "KARAFS_SALAD": {
         "NAME": "سالاد کرفس",
         "DESCRIPTION": "",
-        "PRICE": "۷.۰۰"
+        "PRICE": "7.00"
       },
       "PERSIAN_SALAD": {
         "NAME": "سالاد ایرانی",
         "DESCRIPTION": "",
-        "PRICE": "۸.۰۰"
+        "PRICE": "8.00"
       },
       "ANAHITA_SALAD": {
         "NAME": "سالاد آناهیتا",
         "DESCRIPTION": "",
-        "PRICE": "۸.۰۰"
+        "PRICE": "8.00"
       }
     },
     "MAIN_COURSE": {
       "PERSIAN_RICE": {
         "NAME": "پلو ایرانی",
         "DESCRIPTION": "",
-        "PRICE": "۵.۰۰"
+        "PRICE": "5.00"
       },
       "BIFTEKI_SPECIAL_WITH_CHEESE_FILLING": {
         "NAME": "بیفتک ویژه همراه با پنیر",
         "DESCRIPTION": "",
-        "PRICE": "۱۱.۰۰"
+        "PRICE": "11.00"
       },
       "KHORESHTE_FESENJAN": {
         "NAME": "خورشت فسنجان",
         "DESCRIPTION": "",
-        "PRICE": "۱۴.۰۰"
+        "PRICE": "14.00"
       },
       "KHORESHTE_GHORME_SABZI": {
         "NAME": "خورشت قورمه سبزی",
         "DESRIPTION": "",
-        "PRICE": "۱۳.۰۰"
+        "PRICE": "13.00"
       },
       "KHORESHTE_ESFENAJ": {
         "NAME": "خورشت اسفناج",
         "DESCRIPTION": "",
-        "PRICE": "۱۳.۰۰"
+        "PRICE": "13.00"
       },
       "KHORESHTE_GHEIME": {
         "NAME": "خورشت قیمه",
         "DESCRIPTION": "",
-        "PRICE": "۱۳.۰۰"
+        "PRICE": "13.00"
       },
       "BAGHALI_POLO": {
         "NAME": "باقالی پلو",
         "DESCRIPTION": "",
-        "PRICE": "۱۳.۰۰"
+        "PRICE": "13.00"
       },
       "ZERESHK_POLO_OR_SHIRIN_POLO": {
         "NAME": "زرشک پلو یا شیرین پلو بدون مرغ",
         "DESCRIPTION": "",
-        "PRICE": "۷.۵۰"
+        "PRICE": "7.50"
       },
       "SHIRIN_POLO": {
         "NAME": "شیرین پلو",
         "DESCRIPTION": "",
-        "PRICE": "۱۳.۰۰"
+        "PRICE": "13.00"
       },
       "ZERESHK_POLO": {
         "NAME": "زرشک پلو",
         "DESCRIPTION": "",
-        "PRICE": "۱۳.۰۰"
+        "PRICE": "13.00"
       },
       "SUPER_DISHES": {
         "NAME": "دیس اسپشیال برای شش نفر",
         "DESCRIPTION": "",
-        "PRICE": "۵۶.۰۰"
+        "PRICE": "56.00"
       },
       "KEBAB_MIX_FOR_4": {
         "NAME": "کباب میکس برای ۴ نفر",
         "DESCRIPTION": "",
-        "PRICE": "۳۵.۰۰"
+        "PRICE": "35.00"
       },
       "KEBAB_MIX_FOR_2": {
         "NAME": "کباب میکس برای دو نفر",
         "DESCRIPTION": "",
-        "PRICE": "۲۳.۰۰"
+        "PRICE": "23.00"
       },
       "SOLTANI_WITH_RICE": {
         "NAME": "سلطانی با برنج",
         "DESCRIPTION": "",
-        "PRICE": "۱۶.۰۰"
+        "PRICE": "16.00"
       },
       "SOLTANI_WITHOUT_RICE": {
         "NAME": "سلطانی",
         "DESCRIPTION": "",
-        "PRICE": "۱۴.۰۰"
+        "PRICE": "14.00"
       },
       "KEBAB_CHENJEH": {
         "NAME": "کباب چنجه",
         "DESCRIPTION": "",
-        "PRICE": "۱۳.۰۰"
+        "PRICE": "13.00"
       },
       "CHELO_KEBAB": {
         "NAME": "چلو کباب",
         "DESCRIPTION": "",
-        "PRICE": "۱۳.۰۰"
+        "PRICE": "13.00"
       },
       "KEBAB_KOUBIDEH": {
         "NAME": "کباب کوبیده",
         "DESCRIPTION": "",
-        "PRICE": "۱۱.۰۰"
+        "PRICE": "11.00"
       },
       "KEBAB_BARG": {
         "NAME": "کباب برگ",
         "DESCRIPTION": "",
-        "PRICE": "۱۳.۰۰"
+        "PRICE": "13.00"
       },
       "JOUJE_KEBAB": {
         "NAME": "جوجه کباب",
         "DESCRIPTION": "",
-        "PRICE": "۱۱.۰۰"
+        "PRICE": "11.00"
       }
     },
     "APPETIZERS": {
       "HUMMUS": {
         "NAME": "خموس",
         "DESCRIPTION": "",
-        "PRICE": "۵.۰۰"
+        "PRICE": "5.00"
       },
       "SOSIS_BANDARI": {
         "NAME": "سسیس بندری",
         "DESCRIPTION": "",
-        "PRICE": "۵.۰۰"
+        "PRICE": "5.00"
       },
       "CHEESE_CROQUETTES_WITH_RED_SAUCE": {
         "NAME": "پنیر کوفته ای همراه با سس قرمز",
         "DESCRIPTION": "",
-        "PRICE": "۵.۰۰"
+        "PRICE": "5.00"
       },
       "SAGANAKI_CHEESE_WITH_RED_SAUCE": {
         "NAME": "پنیر ساقاناکی همراه با سس قرمز",
         "DESCRIPTION": "",
-        "PRICE": "۵.۰۰"
+        "PRICE": "5.00"
       },
       "JO_SOUP": {
         "NAME": "سوپ جو",
         "DESCRIPTION": "",
-        "PRICE": "۶.۰۰"
+        "PRICE": "6.00"
       },
       "ASH_RESHTEH": {
         "NAME": "آش رشته",
         "DESCRIPTION": "",
-        "PRICE": "۶.۰۰"
+        "PRICE": "6.00"
       },
       "PERSIAN_BREAD": {
         "NAME": "نان ایرانی",
         "DESCRIPTION": "",
-        "PRICE": "۲.۵۰"
+        "PRICE": "2.50"
       },
       "FRIED_POTATOES_WITH_CHEESE": {
         "NAME": "سیب زمینی سرخ کرده با پنیر",
         "DESCRIPTION": "",
-        "PRICE": "۴.۵۰"
+        "PRICE": "4.50"
       },
       "FRIED_POTATOES": {
         "NAME": "سیب زمینی سرخ کرده",
         "DESCRIPTION": "",
-        "PRICE": "۴.۰۰"
+        "PRICE": "4.00"
       },
       "LAKHMAJOON": {
         "NAME": "لاخماجون",
         "DESCRIPTION": "",
-        "PRICE": "۷.۵۰"
+        "PRICE": "7.50"
       },
       "KOTLET": {
         "NAME": "کتلت",
         "DESCRIPTION": "",
-        "PRICE": "۷.۵۰"
+        "PRICE": "7.50"
       },
       "KOUFTEH_BERENJI": {
         "NAME": "کوفته برنجی",
         "DESCRIPTION": "",
-        "PRICE": "۶.۵۰"
+        "PRICE": "6.50"
       },
       "MIRZA_GHASEMI": {
         "NAME": "میرزا قاسمی",
         "DESCRIPTION": "",
-        "PRICE": "۸.۰۰"
+        "PRICE": "8.00"
       },
       "KASHKE_BADEMJAN": {
         "NAME": "کشک بادمجان",
         "DESCRIPTION": "",
-        "PRICE": "۸.۰۰"
+        "PRICE": "8.00"
       },
       "MASTO_KHIAR": {
         "NAME": "ماست و خیار",
         "DESCRIPTION": "",
-        "PRICE": "۵.۰۰"
+        "PRICE": "5.00"
       },
       "NAZKHATOON": {
         "NAME": "نازخاتون",
         "DESCRIPTION": "",
-        "PRICE": "۵.۰۰"
+        "PRICE": "5.00"
       },
       "NARGESI": {
         "NAME": "نرگسی",
         "DESCRIPTION": "",
-        "PRICE": "۵.۰۰"
+        "PRICE": "5.00"
       },
       "BOURANI": {
         "NAME": "بورانی",
         "DESCRIPTION": "",
-        "PRICE": "۵.۰۰"
+        "PRICE": "5.00"
       },
       "MAST_MOUSIR": {
         "NAME": "ماست موسیر",
         "DESCRIPTION": "",
-        "PRICE": "۵.۰۰"
+        "PRICE": "5.00"
       },
       "OLIVIEH": {
         "NAME": "الیویه",
         "DESCRIPTION": "",
-        "PRICE": "۵.۰۰"
+        "PRICE": "5.00"
       }
     }
   }
