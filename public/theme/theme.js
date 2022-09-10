@@ -3,6 +3,9 @@ export const SECONDARY_COLOR = "#f79d2e";
 export const TERTIARY_COLOR = "#2e5aeb";
 export const QUATERNARY_COLOR = "#ff6266";
 
+export const ANAHITA_COLOR = "#93447a";
+export const ANAHITA_SECOND_COLOR = "#bdbc76";
+
 export const FONT_FAMILY = "'Source Code Pro', monospace";
 export const PERSIAN_FONT_FAMILY = "'Vazirmatn', sans-serif";
 

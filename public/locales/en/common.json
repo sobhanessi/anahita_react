@@ -277,5 +277,10 @@
         "PRICE": "5.00"
       }
     }
+  },
+  "NAVBAR": {
+    "HOME": "HOME",
+    "MENU": "MENU",
+    "CONTACT": "CONTACT"
   }
 }

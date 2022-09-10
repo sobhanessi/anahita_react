@@ -21,9 +21,12 @@ import MenuBookIcon from "@mui/icons-material/MenuBook";
 import MenuIcon from "@mui/icons-material/Menu";
 import MuiAppBar, { AppBarProps as MuiAppBarProps } from "@mui/material/AppBar";
 import {
+  ANAHITA_COLOR,
+  FONT_FAMILY,
   NAVBAR_APPBAR_TYPOGRAPHY,
   NAVBAR_CONTAINER_DISPLAY,
   NAVBAR_ICON_BUTTON_DISPLAY,
+  PERSIAN_FONT_FAMILY,
 } from "../../public/theme/theme";
 import List from "@mui/material/List";
 import Toolbar from "@mui/material/Toolbar";
@@ -32,6 +35,7 @@ import PhoneIcon from "@mui/icons-material/Phone";
 import { styled, useTheme } from "@mui/material/styles";
 import { US } from "country-flag-icons/react/3x2";
 import { useRouter } from "next/router";
+import { useTranslation } from "next-i18next";
 
 const drawerWidth = 240;
 
@@ -82,7 +86,9 @@ export default function Navbar(): JSX.Element {
   const theme = useTheme();
   const [open, setOpen] = React.useState(false);
 
-  const { locale: language } = useRouter();
+  const { t, i18n } = useTranslation();
+
+  const { locale: language, pathname: url } = useRouter();
   const router = useRouter();
 
   const handleDrawerOpen = () => {
@@ -96,19 +102,32 @@ export default function Navbar(): JSX.Element {
   const handleLanguage = (event: SelectChangeEvent) => {
     switch (event.target.value) {
       case "el":
-        router.push("/menu", "/menu", { locale: "el" });
+        router.push(url, url, { locale: "el" });
         break;
       case "fa":
-        router.push("/menu", "/menu", { locale: "fa" });
+        router.push(url, url, { locale: "fa" });
         break;
-      case "en":
-        router.push("/menu", "/menu", { locale: "en" });
-        break;
+
       default:
-        router.push("/menu", "/menu", { locale: "en" });
+        router.push(url, url, { locale: "en" });
         break;
     }
   };
+
+  const redirection = (link: string) => {
+    switch (language) {
+      case "el":
+        router.push(link, link, { locale: "el" });
+        break;
+      case "fa":
+        router.push(link, link, { locale: "fa" });
+        break;
+      default:
+        router.push(link, link, { locale: "en" });
+        break;
+    }
+  };
+
   return (
     <Box sx={{ display: "flex", mb: 10 }}>
       <CssBaseline />
@@ -164,8 +183,8 @@ export default function Navbar(): JSX.Element {
                     // variant="p"
                     noWrap
                     component="a"
-                    href={title.href}
-                    sx={{ ...NAVBAR_APPBAR_TYPOGRAPHY, color: "black" }}
+                    onClick={() => redirection(title.href)}
+                    sx={{ ...NAVBAR_APPBAR_TYPOGRAPHY, color: ANAHITA_COLOR }}
                     key={title.header}
                   >
                     <span
@@ -173,12 +192,19 @@ export default function Navbar(): JSX.Element {
                         marginRight: "10px",
                         display: "flex",
                         alignItems: "center",
-                        color: "black",
+                        color: ANAHITA_COLOR,
                       }}
                     >
                       {title.icon}
                     </span>
-                    <span>{title.header}</span>
+                    <span
+                      style={{
+                        fontFamily:
+                          language === "fa" ? PERSIAN_FONT_FAMILY : FONT_FAMILY,
+                      }}
+                    >
+                      {t(`NAVBAR.${title.header}`)}
+                    </span>
                   </Typography>
                 ) : (
                   <FormControl sx={{ m: 2, minWidth: 140 }}>
@@ -197,7 +223,11 @@ export default function Navbar(): JSX.Element {
                         <em>ΕΛΛΗΝΙΚΑ</em>
                       </MenuItem>
                       {title?.languages?.map((l) => (
-                        <MenuItem value={l.code} key={l.code}>
+                        <MenuItem
+                          value={l.code}
+                          key={l.code}
+                          sx={{ color: "black" }}
+                        >
                           {l.header}
                         </MenuItem>
                       ))}
@@ -264,7 +294,7 @@ export default function Navbar(): JSX.Element {
                   noWrap
                   component="a"
                   href={title.href}
-                  sx={{ ...NAVBAR_APPBAR_TYPOGRAPHY, color: "black" }}
+                  sx={{ ...NAVBAR_APPBAR_TYPOGRAPHY, color: ANAHITA_COLOR }}
                   key={title.header}
                 >
                   <span
@@ -274,7 +304,7 @@ export default function Navbar(): JSX.Element {
                       marginBottom: "8px",
                       display: "flex",
                       alignItems: "center",
-                      color: "black",
+                      color: ANAHITA_COLOR,
                     }}
                   >
                     {title.icon}

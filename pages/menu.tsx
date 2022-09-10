@@ -30,9 +30,7 @@ function Menu(): JSX.Element {
 
   return (
     <>
-      <Navbar
-      // language={language} setLanguage={setLanguage}
-      />
+      <Navbar />
       <Container>
         <Grid container justifyContent={"center"}>
           {menu.map((mm) => (
@@ -47,6 +45,7 @@ function Menu(): JSX.Element {
                         mb: 4,
                         fontWeight: "bold",
                         fontSize: "1.75em",
+                        // color: ANAHITA_COLOR,
                         fontFamily:
                           locale === "fa"
                             ? PERSIAN_FONT_FAMILY
@@ -161,6 +160,7 @@ function Menu(): JSX.Element {
                                     fontWeight: "bold",
                                     display: "flex",
                                     flexDirection: "row",
+                                    fontSize: "1.35rem",
                                     fontFamily:
                                       locale === "fa"
                                         ? PERSIAN_FONT_FAMILY
