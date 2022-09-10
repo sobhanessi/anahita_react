@@ -26,10 +26,7 @@ export async function getStaticProps({ locale }) {
 
 function Menu(): JSX.Element {
   const { t, i18n } = useTranslation();
-
   const { locale } = useRouter();
-
-  const parsePersianNumber = (str: string) => {};
 
   return (
     <>

@@ -3,8 +3,10 @@ import Box from "@mui/material/Box";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import {
+  Avatar,
   Container,
   FormControl,
+  Grid,
   InputLabel,
   MenuItem,
   Select,
@@ -136,6 +138,25 @@ export default function Navbar(): JSX.Element {
               justifyContent: "center",
             }}
           >
+            <Grid
+              item
+              md={2}
+              sm={2}
+              lg={2}
+              xl={2}
+              xs={2}
+              sx={{ display: "flex", alignItems: "center" }}
+            >
+              <Avatar
+                src="/logo.png"
+                variant="square"
+                sx={{
+                  width: 150,
+                  height: "auto",
+                  marginRight: 5,
+                }}
+              />
+            </Grid>
             {titles.map((title) => (
               <>
                 {title.header !== "CHOOSE YOUR LANGUAGE" ? (
@@ -204,6 +225,28 @@ export default function Navbar(): JSX.Element {
       >
         <DrawerHeader>
           <IconButton onClick={handleDrawerClose}>
+            <Grid
+              item
+              md={2}
+              sm={2}
+              lg={2}
+              xl={2}
+              xs={2}
+              sx={{ display: "flex", alignItems: "center" }}
+            >
+              <Avatar
+                src="/logo.png"
+                variant="square"
+                sx={{
+                  width: 150,
+                  height: "auto",
+                  marginRight: 5,
+                  marginLeft: 2,
+                  marginBottom: 1,
+                  marginTop: 1,
+                }}
+              />
+            </Grid>
             {theme.direction === "ltr" ? (
               <ChevronLeftIcon />
             ) : (
@@ -213,23 +256,6 @@ export default function Navbar(): JSX.Element {
         </DrawerHeader>
         <Divider />
         <List>
-          {/* {titles.map((title) => (
-            <ListItem key={title.header} disablePadding>
-              <ListItemButton>
-                <Typography
-                  sx={{
-                    mr: 1,
-                    display: "flex",
-                    alignItems: "center",
-                  }}
-                >
-                  {title.icon}
-                </Typography>{" "}
-                <ListItemText primary={title.header} />
-              </ListItemButton>
-            </ListItem>
-          ))} */}
-
           {titles.map((title) => (
             <>
               {title.header !== "CHOOSE YOUR LANGUAGE" ? (
