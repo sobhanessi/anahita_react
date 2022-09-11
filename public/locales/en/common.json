@@ -282,5 +282,12 @@
     "HOME": "HOME",
     "MENU": "MENU",
     "CONTACT": "CONTACT"
-  }
+  },
+  "ABOUT_ANAHITA": {
+    "DESCRIPTION": "Anahita, the first Persian restaurant in Athens, has been serving dishes with distinct Eastern flavors for 31 years, from fresh ingredients to authentic recipes. At Anahita you will enjoy a variety of meat and chicken cooked with simple flavors of herbs, rice with saffron, orange rose water and special traditional salads in an ethnic cuisine that is worth trying."
+  },
+  "OPENING_DAYS": "Days",
+  "OPENING_HOURS": "Hours",
+  "WEEKDAYS_OPENING": "Tuesday - Saturday",
+  "SUNDAY": "Sunday"
 }

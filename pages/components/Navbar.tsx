@@ -86,7 +86,7 @@ export default function Navbar(): JSX.Element {
   const theme = useTheme();
   const [open, setOpen] = React.useState(false);
 
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   const { locale: language, pathname: url } = useRouter();
   const router = useRouter();
@@ -183,7 +183,7 @@ export default function Navbar(): JSX.Element {
                     // variant="p"
                     noWrap
                     component="a"
-                    onClick={() => redirection(title.href)}
+                    onClick={() => redirection(title.href ?? "")}
                     sx={{ ...NAVBAR_APPBAR_TYPOGRAPHY, color: ANAHITA_COLOR }}
                     key={title.header}
                   >

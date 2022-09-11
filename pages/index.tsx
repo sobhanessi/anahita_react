@@ -1,6 +1,9 @@
-import React from "react";
+import Aboutus from "./components/Aboutus";
+import { Container } from "@mui/material";
 import Navbar from "./components/Navbar";
+import React from "react";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import Scheduling from "./components/Scheduling";
 import { useTranslation } from "next-i18next";
 import { useRouter } from "next/router";
 
@@ -14,13 +17,16 @@ export async function getStaticProps({ locale }) {
 }
 
 function Homepage() {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const { locale } = useRouter();
 
   return (
     <>
       <Navbar />
-      <div>hello world</div>
+      <Container sx={{ pt: 10 }}>
+        <Aboutus />
+        <Scheduling />
+      </Container>
     </>
   );
 }
