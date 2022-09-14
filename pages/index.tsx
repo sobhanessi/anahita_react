@@ -4,8 +4,8 @@ import Navbar from "./components/Navbar";
 import React from "react";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Scheduling from "./components/Scheduling";
-import { useTranslation } from "next-i18next";
-import { useRouter } from "next/router";
+// import { useTranslation } from "next-i18next";
+// import { useRouter } from "next/router";
 
 export async function getStaticProps({ locale }) {
   return {
@@ -17,8 +17,8 @@ export async function getStaticProps({ locale }) {
 }
 
 function Homepage() {
-  const { t } = useTranslation();
-  const { locale } = useRouter();
+  // const { t } = useTranslation();
+  // const { locale } = useRouter();
 
   return (
     <>
