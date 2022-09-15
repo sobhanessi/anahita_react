@@ -10,6 +10,8 @@ export default function Document() {
           rel="stylesheet"
           type="text/css"
         />
+        {/* persian fonts */}
+        <link rel="stylesheet" href="//unpkg.com/@raha.group/persian-fonts" />
       </Head>
       <body>
         <Main />
