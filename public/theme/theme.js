@@ -9,6 +9,7 @@ export const ANAHITA_SECOND_COLOR = "#bdbc76";
 export const FONT_FAMILY = "arial";
 // export const PERSIAN_FONT_FAMILY = "'Vazirmatn', sans-serif";
 export const PERSIAN_FONT_FAMILY = "Yekan";
+export const PERSIAN_TITR_FONT_FAMILY = "Titr";
 
 export const NAVBAR_ICON_BUTTON_DISPLAY = {
   xl: "none",
