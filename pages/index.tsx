@@ -1,4 +1,5 @@
 import Aboutus from "./components/Aboutus";
+import Address from "./components/Address";
 import { Container } from "@mui/material";
 import Navbar from "./components/Navbar";
 import React from "react";
@@ -26,6 +27,7 @@ function Homepage() {
       <Container sx={{ pt: 10 }}>
         <Aboutus />
         <Scheduling />
+        <Address />
       </Container>
     </>
   );
