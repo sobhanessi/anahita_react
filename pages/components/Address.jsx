@@ -34,7 +34,7 @@ function Address() {
         <iframe
           title="map"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1571.4685936649207!2d23.7909334007901!3d38.02524379786575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a198f15837befd%3A0x3af37333c0b1808c!2sAnahita!5e0!3m2!1sen!2sgr!4v1638007336178!5m2!1sen!2sgr"
-          // width="400"
+          width="100%"
           height="400"
           style={{ border: "5px" }}
           allowfullscreen=""
@@ -51,6 +51,7 @@ function Address() {
         sx={{ display: "flex", flexDirection: "column" }}
       >
         <Typography
+          key="address"
           sx={{
             color: ANAHITA_COLOR,
             mt: 5,
@@ -64,6 +65,7 @@ function Address() {
           {t("ADDRESS")}
         </Typography>
         <Typography
+          key="anahita address"
           sx={{
             fontSize: locale === "fa" ? "1.55rem" : "1.3rem",
             direction: locale === "fa" ? "rtl" : "ltr",
@@ -73,6 +75,7 @@ function Address() {
           {t("ANAHITA_ADDRESS")}
         </Typography>
         <Typography
+          key="telephone"
           sx={{
             color: ANAHITA_COLOR,
             mt: 5,
@@ -86,6 +89,7 @@ function Address() {
           {t("TELEPHONE")}
         </Typography>
         <Typography
+          key="anahita telephone"
           component="a"
           href="tel:+302106891222"
           noWrap
