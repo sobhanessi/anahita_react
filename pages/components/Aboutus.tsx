@@ -43,7 +43,7 @@ function Aboutus(): JSX.Element {
           component="q"
           sx={{
             mb: 2,
-            fontSize: locale === "fa" ? "1.55rem" : "1.3rem",
+            fontSize: locale === "fa" ? "1.55rem" : "1.65rem",
             fontWeight: "bold",
             direction: locale === "fa" ? "rtl" : "ltr",
             fontFamily:
@@ -55,10 +55,11 @@ function Aboutus(): JSX.Element {
           {t("ABOUT_US")}
         </Typography>
         <Typography
+          // component="i"
           sx={{
             // mt: 5,
-            fontSize: locale === "fa" ? "1.55rem" : "1.3rem",
-            // fontWeight: "bold",
+            fontSize: locale === "fa" ? "1.55rem" : "1.4rem",
+            fontWeight: 500,
             direction: locale === "fa" ? "rtl" : "ltr",
             fontFamily: locale === "fa" ? PERSIAN_FONT_FAMILY : FONT_FAMILY,
           }}
