@@ -12,6 +12,7 @@ export default function Document() {
         />
         {/* persian fonts */}
         <link rel="stylesheet" href="//unpkg.com/@raha.group/persian-fonts" />
+        {/* instagram embed */}
       </Head>
       <body>
         <Main />
