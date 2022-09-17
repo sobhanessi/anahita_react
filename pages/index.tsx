@@ -1,6 +1,7 @@
 import Aboutus from "./components/Aboutus";
 import Address from "./components/Address";
 import { Container } from "@mui/material";
+import Instagram from "./components/Instagram";
 import Navbar from "./components/Navbar";
 import React from "react";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
@@ -28,6 +29,7 @@ function Homepage() {
         <Aboutus />
         <Scheduling />
         <Address />
+        <Instagram />
       </Container>
     </>
   );
