@@ -9,7 +9,7 @@ import {
 } from "@mui/material";
 import menu from "../database/menu";
 import Navbar from "./components/Navbar";
-import { PERSIAN_FONT_FAMILY } from "../public/theme/theme";
+import { BACKGROUND_COLOR, PERSIAN_FONT_FAMILY } from "../public/theme/theme";
 import persify from "persify";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
@@ -29,7 +29,7 @@ function Menu(): JSX.Element {
   const { locale } = useRouter();
 
   return (
-    <>
+    <div style={{ backgroundColor: BACKGROUND_COLOR }}>
       <Navbar />
       <Container>
         <Grid container justifyContent={"center"}>
@@ -201,7 +201,7 @@ function Menu(): JSX.Element {
           ))}
         </Grid>
       </Container>
-    </>
+    </div>
   );
 }
 

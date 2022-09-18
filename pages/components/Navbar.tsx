@@ -22,6 +22,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import MuiAppBar, { AppBarProps as MuiAppBarProps } from "@mui/material/AppBar";
 import {
   ANAHITA_COLOR,
+  // BACKGROUND_COLOR,
   FONT_FAMILY,
   NAVBAR_APPBAR_TYPOGRAPHY,
   NAVBAR_CONTAINER_DISPLAY,
@@ -131,7 +132,7 @@ export default function Navbar(): JSX.Element {
   return (
     <Box sx={{ display: "flex", mb: 10 }}>
       <CssBaseline />
-      <AppBar position="fixed" open={open} sx={{ bgcolor: "white" }}>
+      <AppBar position="fixed" open={open} sx={{ backgroundColor: "white" }}>
         <Toolbar>
           <IconButton
             color="inherit"

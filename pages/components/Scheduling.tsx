@@ -29,6 +29,7 @@ function Scheduling(): JSX.Element {
           sx={{
             direction: locale === "fa" ? "rtl" : "ltr",
             mt: 10,
+            boxShadow: 20,
           }}
         >
           <Table sx={{ textAlign: "center" }}>

@@ -10,8 +10,24 @@ function Instagram() {
         src="http://www.instagram.com/embed.js"
         type="text/javascript"
       ></Script>
-      <Grid container>
-        <Grid item sm={10} md={8}>
+      <Grid
+        container
+        sx={{
+          display: "flex",
+          justifyContent: "center",
+          mt: 3,
+          mb: 3,
+        }}
+      >
+        <Grid
+          item
+          xs={10}
+          sm={10}
+          md={8}
+          lg={8}
+          xl={8}
+          sx={{ display: "flex", justifyContent: "center" }}
+        >
           <blockquote
             className="instagram-media"
             data-instgrm-permalink="https://www.instagram.com/p/CeEPy65qmQY/?utm_source=ig_embed&utm_campaign=loading"
