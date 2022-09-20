@@ -2,13 +2,12 @@ import Aboutus from "./components/Aboutus";
 import Address from "./components/Address";
 import { BACKGROUND_COLOR } from "../public/theme/theme";
 import { Container } from "@mui/material";
+import Head from "next/head";
 import Instagram from "./components/Instagram";
 import Navbar from "./components/Navbar";
 import React from "react";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Scheduling from "./components/Scheduling";
-// import { useTranslation } from "next-i18next";
-// import { useRouter } from "next/router";
 
 export async function getStaticProps({ locale }) {
   return {
@@ -20,19 +19,23 @@ export async function getStaticProps({ locale }) {
 }
 
 function Homepage() {
-  // const { t } = useTranslation();
-  // const { locale } = useRouter();
-
   return (
-    <div style={{ backgroundColor: BACKGROUND_COLOR }}>
-      <Navbar />
-      <Container sx={{ pt: 10 }}>
-        <Aboutus />
-        <Scheduling />
-        <Address />
-        <Instagram />
-      </Container>
-    </div>
+    <>
+      <Head>
+        <title>Anahita Persian Restaurant</title>
+        <meta name="description" content="anahita persian restaurant" />
+        <meta name="keywords" content="anahita persian restaurant" />
+      </Head>
+      <div style={{ backgroundColor: BACKGROUND_COLOR }}>
+        <Navbar />
+        <Container sx={{ pt: 10 }}>
+          <Aboutus />
+          <Scheduling />
+          <Address />
+          <Instagram />
+        </Container>
+      </div>
+    </>
   );
 }
 
